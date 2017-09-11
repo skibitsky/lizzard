@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace lizzard
 {
@@ -11,12 +9,5 @@ namespace lizzard
             get { return gameObject.activeSelf; }
             set { gameObject.SetActive(value); }
         }
-
-        public string tag
-        {
-            get { return gameObject.tag; }
-            set { gameObject.tag = value; }
-        }
     }
-
 }
