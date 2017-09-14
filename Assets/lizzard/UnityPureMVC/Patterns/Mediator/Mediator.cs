@@ -13,7 +13,7 @@ namespace UnityPureMVC.Patterns
     /// A base <c>IMediator</c> implementation. 
     /// </summary>
     /// <seealso cref="UnityPureMVC.Core.View"/>
-    public class Mediator : Notifier, IMediator, INotifier
+    public class Mediator : Notifier, IMediator
     {
         /// <summary>
         /// The name of the <c>Mediator</c>. 

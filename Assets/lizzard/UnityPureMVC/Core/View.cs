@@ -163,6 +163,10 @@ namespace UnityPureMVC.Core
                     RegisterObserver(i, observer);
                 }
             }
+
+            if (mediator.ViewComponent == null)
+                mediator.ViewComponent = this;
+
             // alert the mediator that it has been registered
             mediator.OnRegister();
         }

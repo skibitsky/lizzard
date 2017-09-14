@@ -43,12 +43,12 @@ namespace UnityPureMVC.Patterns
     ///         </list>
     ///     </para>
     /// </remarks>
-    /// <seealso cref="UnityPureMVC.Patterns.Proxy.Proxy"/>
+    /// <seealso cref="UnityPureMVC.Patterns.Proxy"/>
     /// <seealso cref="UnityPureMVC.Patterns.Facade"/>
-    /// <seealso cref="UnityPureMVC.Patterns.Mediator.Mediator"/>
-    /// <seealso cref="UnityPureMVC.Patterns.Command.MacroCommand"/>
-    /// <seealso cref="UnityPureMVC.Patterns.Command.SimpleCommand"/>
-    public class Notifier : INotifier
+    /// <seealso cref="UnityPureMVC.Patterns.Mediator"/>
+    /// <seealso cref="UnityPureMVC.Patterns.MacroCommand"/>
+    /// <seealso cref="UnityPureMVC.Patterns.SimpleCommand"/>
+    public class Notifier: INotifier
     {
         /// <summary>
         /// Create and send an <c>INotification</c>.
