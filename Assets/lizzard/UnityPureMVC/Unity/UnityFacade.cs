@@ -1,7 +1,7 @@
 ﻿// ReSharper disable ArrangeAccessorOwnerBody
 // ReSharper disable InconsistentNaming
 
-namespace UnityPureMVC.Unity
+namespace UnityPureMVC
 {
     /// <summary>
     /// Defaul Facade to use or inherit from in Unity project

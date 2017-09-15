@@ -1,14 +1,14 @@
 ﻿using UnityEngine;
 using UnityPureMVC.Interfaces;
 
-namespace UnityPureMVC.Unity
+namespace UnityPureMVC
 {
     /// <summary>
     /// Mediator to use inside of Unity. 
     /// </summary>
     public class MonoBehaviourMediator : MonoBehaviour, IMediator
     {
-
+        [SerializeField]
         private string _mediatorName = "MonoBehaviourMediator";
 
         /// <summary>The mediator name</summary>

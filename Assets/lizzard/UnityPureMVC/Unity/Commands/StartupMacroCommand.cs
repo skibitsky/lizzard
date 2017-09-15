@@ -1,7 +1,7 @@
 ﻿using UnityPureMVC.Interfaces;
 using UnityPureMVC.Patterns;
 
-namespace UnityPureMVC.Unity
+namespace UnityPureMVC
 {
     public class StartupMacroCommand : MacroCommand
     {
