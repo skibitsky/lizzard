@@ -28,10 +28,11 @@ namespace UnityWeld.Binding
         /// </summary>
         private object FindViewModel(string viewModelName)
         {
-            var trans = transform;
+            var trans = transform.root;
             while (trans != null)
             {
-                var components = trans.GetComponents<MonoBehaviour>();
+                var components = trans.GetComponentsInChildren<MonoBehaviour>();
+                Debug.Log(trans.name);
                 var monoBehaviourViewModel = components
                     .FirstOrDefault(component => component.GetType().ToString() == viewModelName);
                 if (monoBehaviourViewModel != null)
@@ -166,7 +167,7 @@ namespace UnityWeld.Binding
         /// </summary>
         public abstract void Disconnect();
 
-        protected void Awake()
+        protected void Start()
         {
             Init();
         }
