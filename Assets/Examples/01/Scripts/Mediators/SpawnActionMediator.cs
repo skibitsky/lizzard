@@ -1,16 +1,22 @@
 ﻿using UnityEngine;
 using UnityPureMVC;
-using UnityWeld.Binding;
+using UnityPureMVC.Patterns;
 
 namespace lizzard.Examples01
 {
-    [Binding]
-    public class SpawnActionMediator : MonoBehaviourMediator
+    public class SpawnActionMediator : Mediator
     {
-        [Binding]
-        public void Test()
+
+        public void Spawn(object body)
         {
-            Debug.Log("Debug mess");
+            // TODO: Move spawn to another command and give her class with Object and parent name (pos, rot?)
+            var go = Object.Instantiate(((ButtonsProxy)Facade.RetrieveProxy("ButtonsProxy")).GetButton());
+            go.transform.SetParent(GameObject.Find("Actions").transform);
+        }
+
+        public SpawnActionMediator(string mediatorName) : base(mediatorName)
+        {
+            AddUiEventInterest("SpawnAction", Spawn);
         }
     }
 }

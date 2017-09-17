@@ -94,5 +94,17 @@ namespace UnityPureMVC.Interfaces
         /// <param name="mediatorName"></param>
         /// <returns>whether a Mediator is registered with the given <c>mediatorName</c>.</returns>
         bool HasMediator(string mediatorName);
+
+        /// <summary>
+        /// Handles UI event from UI/ViewModel. Looks for IMediators interested in the key
+        /// </summary>
+        /// <param name="key">Event key</param>
+        /// <param name="body">Optional body</param>
+        /// <returns>False if no one is interested</returns>
+        bool HandleUiEvent(string key, object body);
+
+        void AddUiEventListener(string key, IMediator mediator);
+
+        void RemoveUiEventListener(string key);
     }
 }

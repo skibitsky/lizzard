@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityPureMVC.Interfaces;
+﻿using UnityPureMVC.Interfaces;
 using UnityPureMVC.Patterns;
 
 namespace lizzard.Examples01
@@ -11,7 +8,7 @@ namespace lizzard.Examples01
         public override void Execute(INotification notification)
         {
             base.Execute(notification);
-
+            Facade.RegisterProxy(new ButtonsProxy("ButtonsProxy"));
         }
     }
 }

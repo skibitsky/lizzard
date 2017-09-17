@@ -1,22 +1,24 @@
-﻿using UnityEngine;
+﻿using System;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityPureMVC.Core;
 using UnityPureMVC.Interfaces;
 
 namespace UnityPureMVC
 {
     /// <summary>
-    /// Mediator to use inside of Unity. 
+    /// Mediator to use inside of Unity as a component. 
     /// </summary>
     public class MonoBehaviourMediator : MonoBehaviour, IMediator
     {
         [SerializeField]
         private string _mediatorName = "MonoBehaviourMediator";
 
+        /// <inheritdoc />
         /// <summary>The mediator name</summary>
         public string MediatorName { get { return _mediatorName; } protected set { _mediatorName = value; } }
 
-        /// <summary>The view component</summary>
-        public object ViewComponent { get; set; }
-
+        /// <inheritdoc />
         /// <summary>
         /// List the <c>INotification</c> names this
         /// <c>Mediator</c> is interested in being notified of.
@@ -27,6 +29,7 @@ namespace UnityPureMVC
             return new string[0];
         }
 
+        /// <inheritdoc />
         /// <summary>
         /// Handle <c>INotification</c>s.
         /// </summary>
@@ -42,6 +45,7 @@ namespace UnityPureMVC
         {
         }
 
+        /// <inheritdoc />
         /// <summary>
         /// Called by the MyView when the Mediator is registered
         /// </summary>
@@ -49,6 +53,7 @@ namespace UnityPureMVC
         {
         }
 
+        /// <inheritdoc />
         /// <summary>
         /// Called by the MyView when the Mediator is removed
         /// </summary>
@@ -56,6 +61,44 @@ namespace UnityPureMVC
         {
         }
 
+        /// <inheritdoc />
+        /// <summary>
+        /// Called by the View. Handles UiEvent notification
+        /// </summary>
+        public virtual void HandleUiEvent(string key, object data)
+        {
+            Action<object> action;
+            if (UiEventsMap.TryGetValue(key, out action))
+                action.Invoke(data);
+        }
+
+        public void AddUiEventInterest(string key, Action<object> action)
+        {
+            if (UiEventsMap.ContainsKey(key))
+                UiEventsMap[key] += action;
+            else
+            {
+                UiEventsMap.Add(key, action);
+                MyView.AddUiEventListener(key, this);
+            }
+        }
+
+        public void RemoveUiEventInterest(string key)
+        {
+            if (UiEventsMap.ContainsKey(key))
+                UiEventsMap.Remove(key);
+            MyView.RemoveUiEventListener(key);
+        }
+
+        public void RemoveUiEventInterest(string key, Action<object> action)
+        {
+            if (!UiEventsMap.ContainsKey(key)) return;
+            UiEventsMap[key] -= action;
+            if (UiEventsMap[key].GetInvocationList().Length == 0)
+                RemoveUiEventInterest(key);
+        }
+
+        /// <inheritdoc />
         /// <summary>
         /// Create and send an <c>INotification</c>.
         /// </summary>
@@ -87,7 +130,12 @@ namespace UnityPureMVC
         private void OnEnable()
         {
             Facade.RegisterMediator(this);
+            MyView = View.GetInstance;
+            UiEventsMap = new Dictionary<string, Action<object>>();
         }
-        
+
+        protected IView MyView { get; private set; }
+
+        protected IDictionary<string, Action<object>> UiEventsMap;
     }
 }

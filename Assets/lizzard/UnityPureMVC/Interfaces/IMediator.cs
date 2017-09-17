@@ -5,6 +5,9 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
+
+using System;
+
 namespace UnityPureMVC.Interfaces
 {
     /// <summary>
@@ -54,11 +57,6 @@ namespace UnityPureMVC.Interfaces
         string MediatorName { get; }
 
         /// <summary>
-        /// Get or Set the <c>IMediator</c>'s view component.
-        /// </summary>
-        object ViewComponent { get; set; }
-
-        /// <summary>
         /// List <c>INotification</c> interests.
         /// </summary>
         /// <returns> an <c>Array</c> of the <c>INotification</c> names this <c>IMediator</c> has an interest in.</returns>
@@ -79,5 +77,30 @@ namespace UnityPureMVC.Interfaces
         /// Called by the MyView when the Mediator is removed
         /// </summary>
         void OnRemove();
+
+        /// <summary>
+        /// Handles 
+        /// </summary>
+        /// <param name="key"></param>
+        /// <param name="data"></param>
+        void HandleUiEvent(string key, object data);
+
+        void AddUiEventInterest(string key, Action<object> action);
+
+        /// <summary>
+        /// Removes interest in UI Event by deleting all subscribes action.
+        /// </summary>
+        void RemoveUiEventInterest(string key);
+
+        /// <summary>
+        /// Unsubscribe action from UI event interest.
+        /// </summary>
+        /// <remarks>
+        /// If it was the last action in collection, it should call RemoveUiEventInterest(string key)
+        /// to delete th whole inerest in UI Event.
+        /// </remarks>
+        /// <param name="key">UI Event key</param>
+        /// <param name="action">Action to be deleted</param>
+        void RemoveUiEventInterest(string key, Action<object> action);
     }
 }

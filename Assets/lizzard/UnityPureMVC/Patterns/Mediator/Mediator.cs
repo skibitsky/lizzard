@@ -5,6 +5,9 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
+using System;
+using System.Collections.Generic;
+using UnityPureMVC.Core;
 using UnityPureMVC.Interfaces;
 
 namespace UnityPureMVC.Patterns
@@ -12,7 +15,7 @@ namespace UnityPureMVC.Patterns
     /// <summary>
     /// A base <c>IMediator</c> implementation. 
     /// </summary>
-    /// <seealso cref="UnityPureMVC.Core.View"/>
+    /// <seealso cref="T:UnityPureMVC.Core.View" />
     public class Mediator : Notifier, IMediator
     {
         /// <summary>
@@ -31,13 +34,14 @@ namespace UnityPureMVC.Patterns
         /// Constructor.
         /// </summary>
         /// <param name="mediatorName"></param>
-        /// <param name="viewComponent"></param>
-        public Mediator(string mediatorName, object viewComponent = null)
+        public Mediator(string mediatorName)
         {
             MediatorName = mediatorName ?? Mediator.NAME;
-            ViewComponent = viewComponent;
+            MyView = View.GetInstance;
+            UiEventsMap = new Dictionary<string, Action<object>>();
         }
 
+        /// <inheritdoc />
         /// <summary>
         /// List the <c>INotification</c> names this
         /// <c>Mediator</c> is interested in being notified of.
@@ -48,6 +52,7 @@ namespace UnityPureMVC.Patterns
             return new string[0];
         }
 
+        /// <inheritdoc />
         /// <summary>
         /// Handle <c>INotification</c>s.
         /// </summary>
@@ -63,6 +68,7 @@ namespace UnityPureMVC.Patterns
         {
         }
 
+        /// <inheritdoc />
         /// <summary>
         /// Called by the MyView when the Mediator is registered
         /// </summary>
@@ -70,6 +76,7 @@ namespace UnityPureMVC.Patterns
         {
         }
 
+        /// <inheritdoc />
         /// <summary>
         /// Called by the MyView when the Mediator is removed
         /// </summary>
@@ -77,10 +84,49 @@ namespace UnityPureMVC.Patterns
         {
         }
 
+        /// <inheritdoc />
+        /// <summary>
+        /// Called by the View. Handles UiEvent notification
+        /// </summary>
+        public virtual void HandleUiEvent(string key, object data)
+        {
+            Action<object> action;
+            if (UiEventsMap.TryGetValue(key, out action))
+                action.Invoke(data);
+        }
+
+        public void AddUiEventInterest(string key, Action<object> action)
+        {
+            if (UiEventsMap.ContainsKey(key))
+                UiEventsMap[key] += action;
+            else
+            {
+                UiEventsMap.Add(key, action);
+                MyView.AddUiEventListener(key, this);
+            }
+        }
+
+        public void RemoveUiEventInterest(string key)
+        {
+            if (UiEventsMap.ContainsKey(key))
+                UiEventsMap.Remove(key);
+            MyView.RemoveUiEventListener(key);
+        }
+
+        public void RemoveUiEventInterest(string key, Action<object> action)
+        {
+            if (!UiEventsMap.ContainsKey(key)) return;
+            UiEventsMap[key] -= action;
+            if (UiEventsMap[key].GetInvocationList().Length == 0)
+                RemoveUiEventInterest(key);
+        }
+
+        /// <inheritdoc />
         /// <summary>the mediator name</summary>
         public string MediatorName { get; protected set; }
 
-        /// <summary>The view component</summary>
-        public object ViewComponent { get; set; }
+        protected IView MyView { get; private set; }
+
+        protected IDictionary<string, Action<object>> UiEventsMap;
     }
 }

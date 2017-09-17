@@ -32,7 +32,6 @@ namespace UnityWeld.Binding
             while (trans != null)
             {
                 var components = trans.GetComponentsInChildren<MonoBehaviour>();
-                Debug.Log(trans.name);
                 var monoBehaviourViewModel = components
                     .FirstOrDefault(component => component.GetType().ToString() == viewModelName);
                 if (monoBehaviourViewModel != null)

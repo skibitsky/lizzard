@@ -5,7 +5,6 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
-using System;
 using System.Collections.Generic;
 using UnityPureMVC.Interfaces;
 using UnityPureMVC.Patterns;
@@ -13,7 +12,7 @@ using UnityPureMVC.Patterns;
 namespace UnityPureMVC.Core
 {
     /// <summary>
-    /// A Multiton <c>IView</c> implementation.
+    /// A <c>IView</c> implementation.
     /// </summary>
     /// <remarks>
     ///     <para>In UnityPureMVC, the <c>View</c> class assumes these responsibilities:</para>
@@ -53,16 +52,17 @@ namespace UnityPureMVC.Core
         {
             MediatorMap = new Dictionary<string, IMediator>();
             ObserverMap = new Dictionary<string, IList<IObserver>>();
+            UiEventsMap = new Dictionary<string, IList<IMediator>>();
             InitializeView();
         }
 
         /// <summary>
-        /// Initialize the Multiton View instance.
+        /// Initialize the View instance.
         /// </summary>
         /// <remarks>
         ///     <para>
         ///         Called automatically by the constructor, this
-        ///         is your opportunity to initialize the Multiton
+        ///         is your opportunity to initialize the
         ///         instance in your subclass without overriding the
         ///         constructor.
         ///     </para>
@@ -71,6 +71,7 @@ namespace UnityPureMVC.Core
         {
         }
 
+        /// <inheritdoc />
         /// <summary>
         ///     Register an <c>IObserver</c> to be notified
         ///     of <c>INotifications</c> with a given name.
@@ -84,6 +85,7 @@ namespace UnityPureMVC.Core
             ObserverMap[notificationName].Add(observer);
         }
 
+        /// <inheritdoc />
         /// <summary>
         /// Notify the <c>IObservers</c> for a particular <c>INotification</c>.
         /// </summary>
@@ -99,6 +101,7 @@ namespace UnityPureMVC.Core
         {
             // Get a reference to the observers list for this notification name
             IList<IObserver> observersRef;
+            
             if (!ObserverMap.TryGetValue(notification.Name, out observersRef)) return;
             // Copy observers from reference array to working array, 
             // since the reference array may change during the notification loop
@@ -109,6 +112,7 @@ namespace UnityPureMVC.Core
             }
         }
 
+        /// <inheritdoc />
         /// <summary>
         /// Remove the observer for a given notifyContext from an observer list for a given Notification name.
         /// </summary>
@@ -131,6 +135,7 @@ namespace UnityPureMVC.Core
                 ObserverMap.Remove(notificationName);
         }
 
+        /// <inheritdoc />
         /// <summary>
         /// Register an <c>IMediator</c> instance with the <c>View</c>.
         /// </summary>
@@ -164,13 +169,11 @@ namespace UnityPureMVC.Core
                 }
             }
 
-            if (mediator.ViewComponent == null)
-                mediator.ViewComponent = this;
-
             // alert the mediator that it has been registered
             mediator.OnRegister();
         }
 
+        /// <inheritdoc />
         /// <summary>
         /// Retrieve an <c>IMediator</c> from the <c>View</c>.
         /// </summary>
@@ -183,6 +186,7 @@ namespace UnityPureMVC.Core
             return mediator;
         }
 
+        /// <inheritdoc />
         /// <summary>
         /// Remove an <c>IMediator</c> from the <c>View</c>.
         /// </summary>
@@ -201,6 +205,7 @@ namespace UnityPureMVC.Core
             return mediator;
         }
 
+        /// <inheritdoc />
         /// <summary>
         /// Check if a Mediator is registered or not
         /// </summary>
@@ -209,7 +214,41 @@ namespace UnityPureMVC.Core
         public virtual bool HasMediator(string mediatorName)
         {
             return MediatorMap.ContainsKey(mediatorName);
-        }   
+        }
+
+        /// <inheritdoc />
+        /// <summary>
+        /// Handles UI event from UI/ViewModel. Looks for IMediators interested in the key
+        /// </summary>
+        /// <param name="key">Event key</param>
+        /// <param name="body">Optional body</param>
+        /// <returns>False if no one is interested</returns>
+        public virtual bool HandleUiEvent(string key, object body)
+        {
+            IList<IMediator> mediators;
+            if (UiEventsMap.TryGetValue(key, out mediators))
+                foreach (var m in mediators)
+                    m.HandleUiEvent(key, body);
+            else return false;
+            return true;
+        }
+
+        public virtual void AddUiEventListener(string key, IMediator mediator)
+        {
+            IList<IMediator> mediators;
+            if (UiEventsMap.TryGetValue(key, out mediators))
+            {
+                if (!mediators.Contains(mediator))
+                    UiEventsMap[key].Add(mediator);
+            }
+            else UiEventsMap.Add(key, new List<IMediator> {mediator});
+        }
+
+        public virtual void RemoveUiEventListener(string key)
+        {
+            if (UiEventsMap.ContainsKey(key))
+                UiEventsMap.Remove(key);
+        }
 
         /// <summary> Singleton /// </summary>
         protected static IView Instance;
@@ -220,7 +259,9 @@ namespace UnityPureMVC.Core
         /// <summary>Mapping of Notification names to Observer lists</summary>
         protected IDictionary<string, IList<IObserver>> ObserverMap;
 
-        /// <summary>Message Constants</summary>
-        protected const string MULTITON_MSG = "View instance for this Multiton key already constructed!";
+        /// <summary>
+        /// Mapping of UiEvents by key to Mediators list
+        /// </summary>
+        protected IDictionary<string, IList<IMediator>> UiEventsMap;
     }
 }

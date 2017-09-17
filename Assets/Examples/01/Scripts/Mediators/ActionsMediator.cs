@@ -2,18 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityPureMVC;
-using UnityWeld.Binding;
+using UnityPureMVC.Patterns;
 
 namespace lizzard.Examples01
 {
-    [Binding]
-    public class ActionsMediator : MonoBehaviourMediator
+    public class ActionsMediator : Mediator
     {
-        [Binding]
-        public void Tst()
+        public ActionsMediator(string mediatorName) : base(mediatorName)
         {
-            Debug.Log("Test 2");
+            AddUiEventInterest("DoAction", DoAction);
         }
-        
+
+        public void DoAction(object body)
+        {
+            Debug.Log("Action done!");
+        }
     }
 }
