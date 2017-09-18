@@ -1,17 +1,23 @@
 ﻿using UnityEngine;
 using UnityPureMVC;
 using UnityPureMVC.Patterns;
+using lizzard.Commands;
 
 namespace lizzard.Examples01
 {
     public class SpawnActionMediator : Mediator
     {
-
         public void Spawn(object body)
         {
-            // TODO: Move spawn to another command and give her class with Object and parent name (pos, rot?)
-            var go = Object.Instantiate(((ButtonsProxy)Facade.RetrieveProxy("ButtonsProxy")).GetButton());
-            go.transform.SetParent(GameObject.Find("Actions").transform);
+            SendNotification(NotificationNames.SPAWN_GAMEOBJECT,
+                new SpawnableGameObject(
+                    ((ButtonsProxy) Facade.RetrieveProxy("ButtonsProxy")).GetButton(),
+                    GameObject.Find("Actions").transform,
+                    Vector3.zero,
+                    Quaternion.identity
+                ),
+                null
+            );
         }
 
         public SpawnActionMediator(string mediatorName) : base(mediatorName)

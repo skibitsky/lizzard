@@ -1,17 +1,16 @@
 ﻿// ReSharper disable ArrangeAccessorOwnerBody
 // ReSharper disable InconsistentNaming
 
-using lizzard.Examples01;
+using lizzard.Commands;
+using UnityPureMVC.Patterns;
 
-namespace UnityPureMVC
+namespace lizzard.Examples01
 {
     /// <summary>
     /// Defaul Facade to use or inherit from in Unity project
     /// </summary>
-    public class UnityFacade : Patterns.Facade
+    public class UnityFacade : Facade
     { 
-        public const string STARTUP = "UnityFacade.StartUp";
-
         static UnityFacade() { Instance = new UnityFacade(); }
 
         // Override 
@@ -22,12 +21,13 @@ namespace UnityPureMVC
         protected override void InitializeController()
         {
             base.InitializeController();
-            RegisterCommand(STARTUP, typeof(StartupMacroCommand));
+            RegisterCommand(NotificationNames.STARTUP, typeof(StartupMacroCommand));
+            RegisterCommand(NotificationNames.SPAWN_GAMEOBJECT, typeof(SpawnGameObjectCommand));
         }
 
         public virtual void Startup()
         {
-            SendNotification(STARTUP);
+            SendNotification(NotificationNames.STARTUP);
         }
 
     }
