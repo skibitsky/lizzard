@@ -6,6 +6,7 @@
 //
 
 using System.Collections.Generic;
+using lizzard;
 using UnityPureMVC.Interfaces;
 using UnityPureMVC.Patterns;
 
@@ -53,6 +54,7 @@ namespace UnityPureMVC.Core
             MediatorMap = new Dictionary<string, IMediator>();
             ObserverMap = new Dictionary<string, IList<IObserver>>();
             UiEventsMap = new Dictionary<string, IList<IMediator>>();
+            ModelViewMap = new Dictionary<string, ModelView>();
             InitializeView();
         }
 
@@ -250,6 +252,25 @@ namespace UnityPureMVC.Core
                 UiEventsMap.Remove(key);
         }
 
+        public virtual void RegisterModelView(string key, ModelView modelView)
+        {
+            if (!ModelViewMap.ContainsKey(key))
+                ModelViewMap.Add(key, modelView);
+            else
+                UnityEngine.Debug.LogErrorFormat("Model view <i>{0}</i> already exists", key);
+        }
+
+        public virtual ModelView RetrieveModelView(string key)
+        {
+            ModelView result;
+            return ModelViewMap.TryGetValue(key, out result) ? result : null;
+        }
+
+        public virtual void RemoveModelView(string key)
+        {
+            if (ModelViewMap.ContainsKey(key)) ModelViewMap.Remove(key);
+        }
+
         /// <summary> Singleton /// </summary>
         protected static IView Instance;
 
@@ -263,5 +284,7 @@ namespace UnityPureMVC.Core
         /// Mapping of UiEvents by key to Mediators list
         /// </summary>
         protected IDictionary<string, IList<IMediator>> UiEventsMap;
+
+        protected IDictionary<string, ModelView> ModelViewMap;
     }
 }

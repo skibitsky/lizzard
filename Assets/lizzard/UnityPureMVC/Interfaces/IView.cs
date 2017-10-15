@@ -5,6 +5,8 @@
 //  Your reuse is governed by the Creative Commons Attribution 3.0 License
 //
 
+using lizzard;
+
 namespace UnityPureMVC.Interfaces
 {
     /// <summary>
@@ -106,5 +108,11 @@ namespace UnityPureMVC.Interfaces
         void AddUiEventListener(string key, IMediator mediator);
 
         void RemoveUiEventListener(string key);
+
+        void RegisterModelView(string key, ModelView modelView);
+
+        ModelView RetrieveModelView(string key);
+
+        void RemoveModelView(string key);
     }
 }
