@@ -10,9 +10,10 @@ namespace lizzard
         private string _key;
 
         [Binding]
-        public virtual GameObject GameObject
+        public virtual bool SetActive
         {
-            get { return this.gameObject; }
+            get { return this.gameObject.activeSelf; }
+            set { gameObject.SetActive(value); }
         }
 
         public virtual void RegisterModelView(string key)
