@@ -28,10 +28,10 @@ namespace UnityWeld.Binding
         /// </summary>
         private object FindViewModel(string viewModelName)
         {
-            var trans = transform.root;
+            var trans = transform;
             while (trans != null)
             {
-                var components = trans.GetComponentsInChildren<MonoBehaviour>();
+                var components = trans.GetComponents<MonoBehaviour>();
                 var monoBehaviourViewModel = components
                     .FirstOrDefault(component => component.GetType().ToString() == viewModelName);
                 if (monoBehaviourViewModel != null)
@@ -43,8 +43,8 @@ namespace UnityWeld.Binding
                     .Select(component => component as IViewModelProvider)
                     .Where(component => component != null)
                     .FirstOrDefault(
-                        viewModelBinding => viewModelBinding.GetViewModelTypeName() == viewModelName && 
-#pragma warning disable 252,253 // Warning says unintended reference comparison, but we do want to compare references
+                        viewModelBinding => viewModelBinding.GetViewModelTypeName() == viewModelName &&
+#pragma warning disable 252, 253 // Warning says unintended reference comparison, but we do want to compare references
                         (object)viewModelBinding != this
 #pragma warning restore 252,253
                     );
@@ -117,6 +117,12 @@ namespace UnityWeld.Binding
 
             typeName = endPointReference.Substring(0, lastPeriodIndex);
             memberName = endPointReference.Substring(lastPeriodIndex + 1);
+            //Due to (undocumented) unity behaviour, some of their components do not work with the namespace when using GetComponent(""), and all of them work without the namespace
+            //So to be safe, we remove all namespaces from any component that starts with UnityEngine
+            if (typeName.StartsWith("UnityEngine."))
+            {
+                typeName = typeName.Substring(typeName.LastIndexOf('.') + 1);
+            }
             if (typeName.Length == 0 || memberName.Length == 0)
             {
                 throw new InvalidEndPointException(
@@ -166,7 +172,7 @@ namespace UnityWeld.Binding
         /// </summary>
         public abstract void Disconnect();
 
-        protected void Start()
+        protected void Awake()
         {
             Init();
         }

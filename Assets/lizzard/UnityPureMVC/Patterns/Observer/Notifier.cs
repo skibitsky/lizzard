@@ -68,7 +68,7 @@ namespace UnityPureMVC.Patterns
         }
 
         /// <summary> Return the Facade instance</summary>
-        protected IFacade Facade
+        protected static IFacade Facade
         {
             get { return Patterns.Facade.GetInstance; }
         }

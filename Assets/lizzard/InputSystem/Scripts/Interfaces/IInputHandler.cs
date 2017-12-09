@@ -74,8 +74,8 @@ namespace Salday.InputSystem
         List<KeyCode> GetAllKeyCodes();
 
         /// <summary>
-        /// Returns InputLIstener from the handler by name. 
-        /// It can return null if there is no listener with the name.
+        /// Returns InputListener from the handler by name. 
+        /// It can return null if there is no listener with such name.
         /// </summary>
         /// <param name="name">Name of InputListener</param>
         /// <returns></returns>
@@ -184,5 +184,8 @@ namespace Salday.InputSystem
         /// <param name="key">KeyCode of the key the method was subscribed to</param>
         /// <param name="method">Method to be removed</param>
         void RemoveJustReleasedAction(KeyCode key, Action method);
+
+        // Is something has change inside of InputHandler, Manager should update his data
+        bool isDirty { get; set; }
     }
 }

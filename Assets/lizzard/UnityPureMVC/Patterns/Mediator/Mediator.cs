@@ -127,6 +127,9 @@ namespace UnityPureMVC.Patterns
 
         protected IView MyView { get; private set; }
 
+        /// <summary>
+        /// List of delegates which will be called after UI send event with the string key
+        /// </summary>
         protected IDictionary<string, Action<object>> UiEventsMap;
     }
 }

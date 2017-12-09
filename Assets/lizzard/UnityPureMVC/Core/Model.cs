@@ -15,7 +15,7 @@ namespace UnityPureMVC.Core
     /// A Multiton <c>IModel</c> implementation
     /// </summary>
     /// <remarks>
-    ///     <para>In UnityPureMVC, the <c>Model</c> class provides access to model objects (Proxies) by named lookup</para>
+    ///     <para>In UnityPureMVC, the <c>Model</c> class provides access to model objects (ProxyNames) by named lookup</para>
     ///     <para>The <c>Model</c> assumes these responsibilities:</para>
     ///     <list type="bullet">
     ///         <item>Maintain a cache of <c>IProxy</c> instances</item>
