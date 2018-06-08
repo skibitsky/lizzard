@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 // ReSharper disable CheckNamespace
 
-namespace Fanchessy.UnityComponents
+namespace lizzard.UnityComponents
 {
     public class CoroutineRunner : MonoBehaviour
     {

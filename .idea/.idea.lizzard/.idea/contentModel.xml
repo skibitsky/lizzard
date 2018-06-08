@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Examples" t="Include">
+          <e p="Legacy" t="Include">
+            <e p="01" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Commands" t="Include">
+                  <e p="StartupMacroCommand.cs" t="Include" />
+                  <e p="StartupMediatorsCommand.cs" t="Include" />
+                  <e p="StartupProxiesCommand.cs" t="Include" />
+                </e>
+                <e p="GameLauncher.cs" t="Include" />
+                <e p="Mediators" t="Include">
+                  <e p="ActionsMediator.cs" t="Include" />
+                  <e p="SpawnActionMediator.cs" t="Include" />
+                </e>
+                <e p="ModelViews" t="Include">
+                  <e p="ActionsModelView.cs" t="Include" />
+                  <e p="SpawnActionModelView.cs" t="Include" />
+                </e>
+                <e p="NotificationNames.cs" t="Include" />
+                <e p="Proxies" t="Include">
+                  <e p="ButtonsProxy.cs" t="Include" />
+                </e>
+                <e p="UnityFacade.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="lizzard" t="Include">
+          <e p="Core" t="Include">
+            <e p="InputSystem" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="InputAxis.cs" t="Include" />
+                <e p="InputAxisType.cs" t="Include" />
+                <e p="InputHandler.cs" t="Include" />
+                <e p="InputListener.cs" t="Include" />
+                <e p="InputManager.cs" t="Include" />
+                <e p="InputSaver.cs" t="Include" />
+                <e p="Interfaces" t="Include">
+                  <e p="IInputHandler.cs" t="Include" />
+                </e>
+                <e p="StackProtector.cs" t="Include" />
+                <e p="UIKeyChangeButton.cs" t="Include" />
+              </e>
+            </e>
+            <e p="UnityPureMVC" t="Include">
+              <e p="Core" t="Include">
+                <e p="Controller.cs" t="Include" />
+                <e p="Model.cs" t="Include" />
+                <e p="View.cs" t="Include" />
+              </e>
+              <e p="Interfaces" t="Include">
+                <e p="ICommand.cs" t="Include" />
+                <e p="IController.cs" t="Include" />
+                <e p="IFacade.cs" t="Include" />
+                <e p="IMediator.cs" t="Include" />
+                <e p="IModel.cs" t="Include" />
+                <e p="INotification.cs" t="Include" />
+                <e p="INotifier.cs" t="Include" />
+                <e p="IObserver.cs" t="Include" />
+                <e p="IProxy.cs" t="Include" />
+                <e p="IView.cs" t="Include" />
+              </e>
+              <e p="Patterns" t="Include">
+                <e p="Command" t="Include">
+                  <e p="MacroCommand.cs" t="Include" />
+                  <e p="SimpleCommand.cs" t="Include" />
+                </e>
+                <e p="Facade" t="Include">
+                  <e p="Facade.cs" t="Include" />
+                </e>
+                <e p="Mediator" t="Include">
+                  <e p="Mediator.cs" t="Include" />
+                </e>
+                <e p="Observer" t="Include">
+                  <e p="Notification.cs" t="Include" />
+                  <e p="Notifier.cs" t="Include" />
+                  <e p="Observer.cs" t="Include" />
+                </e>
+                <e p="Proxy" t="Include">
+                  <e p="Proxy.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Unity" t="Include">
+                <e p="Mediator" t="Include">
+                  <e p="MonoBehaviourMediator.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="UnityWeld" t="Include">
+              <e p="Binding" t="Include">
+                <e p="AbstractMemberBinding.cs" t="Include" />
+                <e p="AbstractTemplateSelector.cs" t="Include" />
+                <e p="AdapterAttribute.cs" t="Include" />
+                <e p="AdapterOptions.cs" t="Include" />
+                <e p="Adapters" t="Include">
+                  <e p="BoolInversionAdapter.cs" t="Include" />
+                  <e p="BoolToColorAdapter.cs" t="Include" />
+                  <e p="BoolToColorAdapterOptions.cs" t="Include" />
+                  <e p="BoolToColorBlockAdapter.cs" t="Include" />
+                  <e p="BoolToColorBlockAdapterOptions.cs" t="Include" />
+                  <e p="BoolToStringAdapter.cs" t="Include" />
+                  <e p="BoolToStringAdapterOptions.cs" t="Include" />
+                  <e p="DateTimeToStringAdapter.cs" t="Include" />
+                  <e p="DateTimeToStringAdapterOptions.cs" t="Include" />
+                  <e p="FloatToStringAdapter.cs" t="Include" />
+                  <e p="FloatToStringAdapterOptions.cs" t="Include" />
+                  <e p="IntToStringAdapter.cs" t="Include" />
+                  <e p="StringToFloatAdapter.cs" t="Include" />
+                  <e p="StringToIntAdapter.cs" t="Include" />
+                </e>
+                <e p="BindingAttribute.cs" t="Include" />
+                <e p="BoundObservableList.cs" t="Include" />
+                <e p="CollectionBinding.cs" t="Include" />
+                <e p="DropdownBinding.cs" t="Include" />
+                <e p="EventBinding.cs" t="Include" />
+                <e p="Exceptions" t="Include">
+                  <e p="AmbiguousTypeException.cs" t="Include" />
+                  <e p="ComponentNotFoundException.cs" t="Include" />
+                  <e p="InvalidAdapterException.cs" t="Include" />
+                  <e p="InvalidEndPointException.cs" t="Include" />
+                  <e p="InvalidEventException.cs" t="Include" />
+                  <e p="InvalidTypeException.cs" t="Include" />
+                  <e p="MemberNotFoundException.cs" t="Include" />
+                  <e p="NoSuchAdapterException.cs" t="Include" />
+                  <e p="PropertyNullException.cs" t="Include" />
+                  <e p="TemplateNotFoundException.cs" t="Include" />
+                  <e p="ViewModelNotFoundException.cs" t="Include" />
+                </e>
+                <e p="IAdapter.cs" t="Include" />
+                <e p="IMemberBinding.cs" t="Include" />
+                <e p="INotifyCollectionChanged.cs" t="Include" />
+                <e p="Internal" t="Include">
+                  <e p="BindableMember.cs" t="Include" />
+                  <e p="PropertyEndPoint.cs" t="Include" />
+                  <e p="PropertyFinder.cs" t="Include" />
+                  <e p="PropertySync.cs" t="Include" />
+                  <e p="PropertyWatcher.cs" t="Include" />
+                  <e p="TypeResolver.cs" t="Include" />
+                  <e p="UnityEventBinder.cs" t="Include" />
+                  <e p="UnityEventWatcher.cs" t="Include" />
+                </e>
+                <e p="IViewModelProvider.cs" t="Include" />
+                <e p="NotifyCollectionChangedEventArgs.cs" t="Include" />
+                <e p="ObservableList.cs" t="Include" />
+                <e p="OneWayPropertyBinding.cs" t="Include" />
+                <e p="SubViewModelBinding.cs" t="Include" />
+                <e p="Template.cs" t="Include" />
+                <e p="TemplateBinding.cs" t="Include" />
+                <e p="ToggleActiveBinding.cs" t="Include" />
+                <e p="TwoWayPropertyBinding.cs" t="Include" />
+              </e>
+              <e p="Editor" t="Include">
+                <e p="BaseBindingEditor.cs" t="Include" />
+                <e p="CollectionBindingEditor.cs" t="Include" />
+                <e p="EventBindingEditor.cs" t="Include" />
+                <e p="InspectorUtils.cs" t="Include" />
+                <e p="OneWayPropertyBindingEditor.cs" t="Include" />
+                <e p="SubViewModelBindingEditor.cs" t="Include" />
+                <e p="TemplateBindingEditor.cs" t="Include" />
+                <e p="TemplateEditor.cs" t="Include" />
+                <e p="ToggleActiveBindingEditor.cs" t="Include" />
+                <e p="TwoWayPropertyBindingEditor.cs" t="Include" />
+              </e>
+              <e p="Widgets" t="Include">
+                <e p="DropdownAdapter.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Commands" t="Include">
+              <e p="EngineCommands" t="Include">
+                <e p="LoadSceneCommand.cs" t="Include" />
+                <e p="StartCoroutineCommand.cs" t="Include" />
+                <e p="StopCoroutineCommand.cs" t="Include" />
+              </e>
+              <e p="RegisterCommandsCommand.cs" t="Include" />
+              <e p="SpawnGameObject.cs" t="Include" />
+              <e p="StartupEngineCommand.cs" t="Include" />
+              <e p="StartupMediatorsCommand.cs" t="Include" />
+              <e p="StartupProxiesCommand.cs" t="Include" />
+            </e>
+            <e p="Facade.cs" t="Include" />
+            <e p="MacroCommands" t="Include">
+              <e p="StartupMacroCommand.cs" t="Include" />
+            </e>
+            <e p="NamesDirectory.cs" t="Include" />
+            <e p="Proxies" t="Include">
+              <e p="EngineProxy.cs" t="Include" />
+            </e>
+            <e p="UnityComponents" t="Include">
+              <e p="CoroutineRunner.cs" t="Include" />
+              <e p="DontDestroyOnLoad.cs" t="Include" />
+              <e p="GameLauncher.cs" t="Include" />
+              <e p="MonoBehaviourViewModel.cs" t="Include" />
+            </e>
+            <e p="ValueObjects" t="Include">
+              <e p="LoadedSceneVO.cs" t="Include" />
+              <e p="LoadSceneVO.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="lizzard.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_lizzard.-18517991.00" t="ExcludeRecursive" />
+  </component>
+</project>

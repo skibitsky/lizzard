@@ -1,7 +1,7 @@
 ﻿using UnityPureMVC.Patterns;
 using UnityPureMVC.Interfaces;
 
-namespace Fanchessy.Commands
+namespace lizzard.Commands
 {
     public class StartupMediatorsCommand : SimpleCommand
     {

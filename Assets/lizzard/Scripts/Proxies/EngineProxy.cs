@@ -1,10 +1,10 @@
 ﻿using System.Collections;
-using Fanchessy.UnityComponents;
-using Fanchessy.ValueObjects;
+using lizzard.UnityComponents;
+using lizzard.ValueObjects;
 using UnityPureMVC.Patterns;
 using UnityEngine.SceneManagement;
 
-namespace Fanchessy.Proxies
+namespace lizzard.Proxies
 {
     public class EngineProxy : Proxy
     {

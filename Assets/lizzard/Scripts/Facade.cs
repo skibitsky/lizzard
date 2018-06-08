@@ -1,6 +1,6 @@
-﻿using Fanchessy.Commands;
+﻿using lizzard.Commands;
 
-namespace Fanchessy
+namespace lizzard
 {
     public class Facade : UnityPureMVC.Patterns.Facade
     {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine.SceneManagement;
 
-namespace Fanchessy.ValueObjects
+namespace lizzard.ValueObjects
 {
     public struct LoadedSceneVO
     {

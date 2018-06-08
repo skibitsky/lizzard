@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85fe2f2c-15f9-4318-83bc-d7d28e48e360" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Examples/Legacy/01/Scenes/01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/Legacy/01/Scenes/01.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/Scripts/Commands.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/Scripts/Commands/SpawnGameObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/Scripts/Commands/SpawnGameObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/Scripts/ModelView.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/Scripts/ModelView/MonoBehaviourViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/Scripts/ModelView/MonoBehaviourViewModel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupMediatorsCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupMediatorsCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnityPackageManager/manifest.json" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LoadSceneCommand.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/LoadSceneCommand.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding>
+                <marker date="1521989678000" expanded="false" signature="6:124" ph="..." />
+                <marker date="1521989678000" expanded="true" signature="154:685" ph="{...}" />
+                <marker date="1521989678000" expanded="true" signature="206:683" ph="{...}" />
+                <marker date="1521989678000" expanded="true" signature="277:677" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpawnGameObject.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/SpawnGameObject.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding>
+                <marker date="1521989678000" expanded="true" signature="6:78" ph="..." />
+                <marker date="1521989678000" expanded="true" signature="106:1158" ph="{...}" />
+                <marker date="1521989678000" expanded="true" signature="164:627" ph="{...}" />
+                <marker date="1521989678000" expanded="true" signature="235:621" ph="{...}" />
+                <marker date="1521989678000" expanded="true" signature="665:1156" ph="{...}" />
+                <marker date="1521989678000" expanded="true" signature="807:997" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartupMediatorsCommand.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupMediatorsCommand.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <marker date="1528491047165" expanded="false" signature="6:59" ph="..." />
+                <marker date="1528491047165" expanded="true" signature="87:794" ph="{...}" />
+                <marker date="1528491047165" expanded="true" signature="146:792" ph="{...}" />
+                <marker date="1528491047165" expanded="true" signature="217:786" ph="{...}" />
+                <marker date="1528491047165" expanded="true" signature="268:776" ph="/* Facade.RegisterMediator(new LoginMediator(&quot;LoginMediator&quot;)); ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameLauncher.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/GameLauncher.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="19" />
+              <folding>
+                <marker date="1521989678000" expanded="true" signature="55:265" ph="{...}" />
+                <marker date="1521989678000" expanded="true" signature="62:114" ph="/// Game's Papa ... " />
+                <marker date="1521989678000" expanded="true" signature="160:263" ph="{...}" />
+                <marker date="1521989678000" expanded="true" signature="195:257" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartupProxiesCommand.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupProxiesCommand.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1521989678000" expanded="false" signature="6:84" ph="..." />
+                <marker date="1521989678000" expanded="true" signature="114:995" ph="{...}" />
+                <marker date="1521989678000" expanded="true" signature="200:993" ph="{...}" />
+                <marker date="1521989678000" expanded="true" signature="271:987" ph="{...}" />
+                <marker date="1521989678000" expanded="true" signature="322:977" ph="/* Facade.RegisterProxy(new EngineProxy(ProxyNames.ENGINE_PROXY)); ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartupEngineCommand.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <marker date="1521989678000" expanded="true" signature="6:59" ph="..." />
+                <marker date="1521989678000" expanded="true" signature="89:566" ph="{...}" />
+                <marker date="1521989678000" expanded="true" signature="145:564" ph="{...}" />
+                <marker date="1521989678000" expanded="true" signature="216:558" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnityFacade.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/UnityFacade.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <marker date="1521989582000" expanded="true" signature="0:85" ph="/* ReSharper disable ArrangeAccessorOwnerBody ... */" />
+                <marker date="1521989582000" expanded="false" signature="93:139" ph="..." />
+                <marker date="1521989582000" expanded="true" signature="169:978" ph="{...}" />
+                <marker date="1521989582000" expanded="true" signature="176:270" ph="/// Defaul Facade to use or inherit from in Unity project ... " />
+                <marker date="1521989582000" expanded="true" signature="308:976" ph="{...}" />
+                <marker date="1521989582000" expanded="true" signature="610:853" ph="{...}" />
+                <marker date="1521989582000" expanded="true" signature="892:969" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Fanchessy</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>lizzard</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupProxiesCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/GameLauncher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupMediatorsCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/UnityFacade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/LoadSceneCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Facade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/SpawnGameObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupMediatorsCommand.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="lizzard" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="lizzard" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="lizzard" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="lizzard" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="lizzard" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="lizzard" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="lizzard" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="lizzard" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="lizzard" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="lizzard" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="lizzard" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85fe2f2c-15f9-4318-83bc-d7d28e48e360" name="Default" comment="" />
+      <created>1528490414756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528490414756</updated>
+      <workItem from="1528490417545" duration="82000" />
+      <workItem from="1528490527161" duration="197000" />
+      <workItem from="1528490740929" duration="306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="585000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20879121" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="7" weight="0.32923076" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="true" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Core/Scripts/Commands/SpawnGameObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/UnityFacade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <marker date="1521989582000" expanded="true" signature="0:85" ph="/* ReSharper disable ArrangeAccessorOwnerBody ... */" />
+            <marker date="1521989582000" expanded="false" signature="93:139" ph="..." />
+            <marker date="1521989582000" expanded="true" signature="169:978" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="176:270" ph="/// Defaul Facade to use or inherit from in Unity project ... " />
+            <marker date="1521989582000" expanded="true" signature="308:976" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="610:853" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="892:969" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/LoadSceneCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <marker date="1521989678000" expanded="false" signature="6:124" ph="..." />
+            <marker date="1521989678000" expanded="true" signature="154:685" ph="{...}" />
+            <marker date="1521989678000" expanded="true" signature="206:683" ph="{...}" />
+            <marker date="1521989678000" expanded="true" signature="277:677" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/UnityFacade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <marker date="1521989582000" expanded="true" signature="0:85" ph="/* ReSharper disable ArrangeAccessorOwnerBody ... */" />
+            <marker date="1521989582000" expanded="false" signature="93:139" ph="..." />
+            <marker date="1521989582000" expanded="true" signature="169:978" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="176:270" ph="/// Defaul Facade to use or inherit from in Unity project ... " />
+            <marker date="1521989582000" expanded="true" signature="308:976" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="610:853" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="892:969" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Facade.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Core/Scripts/Commands/SpawnGameObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/LoadSceneCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <marker date="1521989678000" expanded="false" signature="6:124" ph="..." />
+            <marker date="1521989678000" expanded="true" signature="154:685" ph="{...}" />
+            <marker date="1521989678000" expanded="true" signature="206:683" ph="{...}" />
+            <marker date="1521989678000" expanded="true" signature="277:677" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <marker date="1521989678000" expanded="true" signature="6:59" ph="..." />
+            <marker date="1521989678000" expanded="true" signature="89:566" ph="{...}" />
+            <marker date="1521989678000" expanded="true" signature="145:564" ph="{...}" />
+            <marker date="1521989678000" expanded="true" signature="216:558" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/SpawnGameObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding>
+            <marker date="1521989678000" expanded="true" signature="6:78" ph="..." />
+            <marker date="1521989678000" expanded="true" signature="106:1158" ph="{...}" />
+            <marker date="1521989678000" expanded="true" signature="164:627" ph="{...}" />
+            <marker date="1521989678000" expanded="true" signature="235:621" ph="{...}" />
+            <marker date="1521989678000" expanded="true" signature="665:1156" ph="{...}" />
+            <marker date="1521989678000" expanded="true" signature="807:997" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupProxiesCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1521989678000" expanded="false" signature="6:84" ph="..." />
+            <marker date="1521989678000" expanded="true" signature="114:995" ph="{...}" />
+            <marker date="1521989678000" expanded="true" signature="200:993" ph="{...}" />
+            <marker date="1521989678000" expanded="true" signature="271:987" ph="{...}" />
+            <marker date="1521989678000" expanded="true" signature="322:977" ph="/* Facade.RegisterProxy(new EngineProxy(ProxyNames.ENGINE_PROXY)); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupMediatorsCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <marker date="1528491047165" expanded="false" signature="6:59" ph="..." />
+            <marker date="1528491047165" expanded="true" signature="87:794" ph="{...}" />
+            <marker date="1528491047165" expanded="true" signature="146:792" ph="{...}" />
+            <marker date="1528491047165" expanded="true" signature="217:786" ph="{...}" />
+            <marker date="1528491047165" expanded="true" signature="268:776" ph="/* Facade.RegisterMediator(new LoginMediator(&quot;LoginMediator&quot;)); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/GameLauncher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <marker date="1521989678000" expanded="true" signature="55:265" ph="{...}" />
+            <marker date="1521989678000" expanded="true" signature="62:114" ph="/// Game's Papa ... " />
+            <marker date="1521989678000" expanded="true" signature="160:263" ph="{...}" />
+            <marker date="1521989678000" expanded="true" signature="195:257" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

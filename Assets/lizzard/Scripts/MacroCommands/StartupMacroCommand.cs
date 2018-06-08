@@ -1,8 +1,8 @@
-﻿using Fanchessy.ValueObjects;
+﻿using lizzard.ValueObjects;
 using UnityPureMVC.Interfaces;
 using UnityPureMVC.Patterns;
 
-namespace Fanchessy.Commands
+namespace lizzard.Commands
 {
     public class StartupMacroCommand : MacroCommand
     {

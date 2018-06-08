@@ -1,9 +1,9 @@
 ﻿using System.Collections;
-using Fanchessy.Proxies;
+using lizzard.Proxies;
 using UnityPureMVC.Interfaces;
 using UnityPureMVC.Patterns;
 
-namespace Fanchessy.Commands
+namespace lizzard.Commands
 {
     public class StopCoroutineCommand : SimpleCommand
     {

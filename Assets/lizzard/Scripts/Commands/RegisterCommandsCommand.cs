@@ -1,7 +1,7 @@
 ﻿using UnityPureMVC.Interfaces;
 using UnityPureMVC.Patterns;
 
-namespace Fanchessy.Commands
+namespace lizzard.Commands
 {
     // All except Engine commands registration
     public class RegisterCommandsCommand : SimpleCommand

@@ -1,8 +1,8 @@
 ﻿using UnityPureMVC.Patterns;
-using Fanchessy.Proxies;
+using lizzard.Proxies;
 using UnityPureMVC.Interfaces;
 
-namespace Fanchessy.Commands
+namespace lizzard.Commands
 {
     // Registers all proxies
     public class StartupProxiesCommand : SimpleCommand

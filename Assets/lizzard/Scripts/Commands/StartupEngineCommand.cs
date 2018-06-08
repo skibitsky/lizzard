@@ -1,7 +1,7 @@
 ﻿using UnityPureMVC.Interfaces;
 using UnityPureMVC.Patterns;
 
-namespace Fanchessy.Commands
+namespace lizzard.Commands
 {
     public class StartupEngineCommand : SimpleCommand
     {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Fanchessy.UnityComponents
+namespace lizzard.UnityComponents
 {
     public class DontDestroyOnLoad : MonoBehaviour
     {

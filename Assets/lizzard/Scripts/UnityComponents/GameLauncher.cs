@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Fanchessy.UnityComponents
+namespace lizzard.UnityComponents
 {
     /// <summary>
     /// Game's Papa
