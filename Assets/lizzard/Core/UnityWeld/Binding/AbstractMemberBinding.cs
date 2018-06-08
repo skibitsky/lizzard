@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using UnityEngine;
 using UnityWeld.Binding.Exceptions;
 using UnityWeld.Binding.Internal;
@@ -28,10 +27,10 @@ namespace UnityWeld.Binding
         /// </summary>
         private object FindViewModel(string viewModelName)
         {
-            var trans = transform;
+            var trans = transform.root;
             while (trans != null)
             {
-                var components = trans.GetComponents<MonoBehaviour>();
+                var components = trans.GetComponentsInChildren<MonoBehaviour>();
                 var monoBehaviourViewModel = components
                     .FirstOrDefault(component => component.GetType().ToString() == viewModelName);
                 if (monoBehaviourViewModel != null)
@@ -43,8 +42,8 @@ namespace UnityWeld.Binding
                     .Select(component => component as IViewModelProvider)
                     .Where(component => component != null)
                     .FirstOrDefault(
-                        viewModelBinding => viewModelBinding.GetViewModelTypeName() == viewModelName &&
-#pragma warning disable 252, 253 // Warning says unintended reference comparison, but we do want to compare references
+                        viewModelBinding => viewModelBinding.GetViewModelTypeName() == viewModelName && 
+#pragma warning disable 252,253 // Warning says unintended reference comparison, but we do want to compare references
                         (object)viewModelBinding != this
 #pragma warning restore 252,253
                     );
@@ -84,7 +83,7 @@ namespace UnityWeld.Binding
                 throw new InvalidAdapterException(string.Format("Type '{0}' does not implement IAdapter and cannot be used as an adapter.", adapterTypeName));
             }
 
-            return (IAdapter)Activator.CreateInstance(adapterType);
+            return AdapterResolver.CreateAdapter(adapterType);
         }
 
         /// <summary>
@@ -172,6 +171,10 @@ namespace UnityWeld.Binding
         /// </summary>
         public abstract void Disconnect();
 
+        /// <summary>
+        /// Standard MonoBehaviour awake message, do not call this explicitly.
+        /// Initialises the binding.
+        /// </summary>
         protected void Awake()
         {
             Init();

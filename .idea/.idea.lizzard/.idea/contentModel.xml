@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Examples" t="Include">
@@ -94,6 +93,7 @@
               </e>
             </e>
             <e p="UnityWeld" t="Include">
+              <e p="AOTOptimisationHelper.cs" t="Include" />
               <e p="Binding" t="Include">
                 <e p="AbstractMemberBinding.cs" t="Include" />
                 <e p="AbstractTemplateSelector.cs" t="Include" />
@@ -107,14 +107,23 @@
                   <e p="BoolToColorBlockAdapterOptions.cs" t="Include" />
                   <e p="BoolToStringAdapter.cs" t="Include" />
                   <e p="BoolToStringAdapterOptions.cs" t="Include" />
+                  <e p="ColorToColorBlockAdapter.cs" t="Include" />
+                  <e p="ColorToColorBlockAdapterOptions.cs" t="Include" />
+                  <e p="DateTimeToFloatAdapter.cs" t="Include" />
                   <e p="DateTimeToStringAdapter.cs" t="Include" />
                   <e p="DateTimeToStringAdapterOptions.cs" t="Include" />
+                  <e p="FloatToDateTimeAdapter.cs" t="Include" />
                   <e p="FloatToStringAdapter.cs" t="Include" />
                   <e p="FloatToStringAdapterOptions.cs" t="Include" />
                   <e p="IntToStringAdapter.cs" t="Include" />
+                  <e p="StringCultureToDateTimeAdapter.cs" t="Include" />
+                  <e p="StringCultureToDateTimeAdapterOptions.cs" t="Include" />
+                  <e p="StringEmptyToBoolAdapter.cs" t="Include" />
                   <e p="StringToFloatAdapter.cs" t="Include" />
                   <e p="StringToIntAdapter.cs" t="Include" />
                 </e>
+                <e p="AnimatorParameterBinding.cs" t="Include" />
+                <e p="AnimatorParameterTrigger.cs" t="Include" />
                 <e p="BindingAttribute.cs" t="Include" />
                 <e p="BoundObservableList.cs" t="Include" />
                 <e p="CollectionBinding.cs" t="Include" />
@@ -137,6 +146,7 @@
                 <e p="IMemberBinding.cs" t="Include" />
                 <e p="INotifyCollectionChanged.cs" t="Include" />
                 <e p="Internal" t="Include">
+                  <e p="AdapterResolver.cs" t="Include" />
                   <e p="BindableMember.cs" t="Include" />
                   <e p="PropertyEndPoint.cs" t="Include" />
                   <e p="PropertyFinder.cs" t="Include" />
@@ -146,6 +156,7 @@
                   <e p="UnityEventBinder.cs" t="Include" />
                   <e p="UnityEventWatcher.cs" t="Include" />
                 </e>
+                <e p="ITypedList.cs" t="Include" />
                 <e p="IViewModelProvider.cs" t="Include" />
                 <e p="NotifyCollectionChangedEventArgs.cs" t="Include" />
                 <e p="ObservableList.cs" t="Include" />
@@ -156,17 +167,13 @@
                 <e p="ToggleActiveBinding.cs" t="Include" />
                 <e p="TwoWayPropertyBinding.cs" t="Include" />
               </e>
-              <e p="Editor" t="Include">
-                <e p="BaseBindingEditor.cs" t="Include" />
-                <e p="CollectionBindingEditor.cs" t="Include" />
-                <e p="EventBindingEditor.cs" t="Include" />
-                <e p="InspectorUtils.cs" t="Include" />
-                <e p="OneWayPropertyBindingEditor.cs" t="Include" />
-                <e p="SubViewModelBindingEditor.cs" t="Include" />
-                <e p="TemplateBindingEditor.cs" t="Include" />
-                <e p="TemplateEditor.cs" t="Include" />
-                <e p="ToggleActiveBindingEditor.cs" t="Include" />
-                <e p="TwoWayPropertyBindingEditor.cs" t="Include" />
+              <e p="Ioc" t="Include">
+                <e p="DefaultWeldContainer.cs" t="Include" />
+                <e p="IWeldContainerIoc.cs" t="Include" />
+                <e p="WeldContainerAttribute.cs" t="Include" />
+              </e>
+              <e p="Properties" t="Include">
+                <e p="AssemblyInfo.cs" t="Include" />
               </e>
               <e p="Widgets" t="Include">
                 <e p="DropdownAdapter.cs" t="Include" />
@@ -177,11 +184,11 @@
             <e p="Commands" t="Include">
               <e p="EngineCommands" t="Include">
                 <e p="LoadSceneCommand.cs" t="Include" />
+                <e p="SpawnGameObject.cs" t="Include" />
                 <e p="StartCoroutineCommand.cs" t="Include" />
                 <e p="StopCoroutineCommand.cs" t="Include" />
               </e>
               <e p="RegisterCommandsCommand.cs" t="Include" />
-              <e p="SpawnGameObject.cs" t="Include" />
               <e p="StartupEngineCommand.cs" t="Include" />
               <e p="StartupMediatorsCommand.cs" t="Include" />
               <e p="StartupProxiesCommand.cs" t="Include" />

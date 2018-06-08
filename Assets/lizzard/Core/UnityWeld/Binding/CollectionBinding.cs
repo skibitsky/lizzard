@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Linq;
 using UnityEngine;
@@ -7,6 +7,14 @@ using UnityWeld.Binding.Internal;
 
 namespace UnityWeld.Binding
 {
+    /// <summary>
+    /// Binds a property in the view-model that is a collection and instantiates copies
+    /// of template objects to bind to the items of the collection.
+    /// 
+    /// Creates and destroys child objects when items are added and removed from a 
+    /// collection that implements INotifyCollectionChanged, like ObservableList.
+    /// </summary>
+    [AddComponentMenu("Unity Weld/Collection Binding")]
     [HelpURL("https://github.com/Real-Serious-Games/Unity-Weld")]
     public class CollectionBinding : AbstractTemplateSelector
     {
@@ -21,11 +29,19 @@ namespace UnityWeld.Binding
 
             string propertyName;
             object newViewModel;
-            ParseViewModelEndPointReference(viewModelPropertyName, out propertyName, out newViewModel);
+            ParseViewModelEndPointReference(
+                ViewModelPropertyName, 
+                out propertyName, 
+                out newViewModel
+            );
 
             viewModel = newViewModel;
 
-            viewModelPropertyWatcher = new PropertyWatcher(newViewModel, propertyName, NotifyPropertyChanged_PropertyChanged);
+            viewModelPropertyWatcher = new PropertyWatcher(
+                newViewModel, 
+                propertyName, 
+                NotifyPropertyChanged_PropertyChanged
+            );
 
             BindCollection();
         }
@@ -105,26 +121,41 @@ namespace UnityWeld.Binding
 
             string propertyName;
             string viewModelName;
-            ParseEndPointReference(viewModelPropertyName, out propertyName, out viewModelName);
+            ParseEndPointReference(
+                ViewModelPropertyName, 
+                out propertyName, 
+                out viewModelName
+            );
 
             var viewModelCollectionProperty = viewModelType.GetProperty(propertyName);
             if (viewModelCollectionProperty == null)
             {
-                throw new MemberNotFoundException("Expected property " + viewModelPropertyName + ", but it wasn't found on type " + viewModelType + ".");
+                throw new MemberNotFoundException(
+                    "Expected property " 
+                    + ViewModelPropertyName + ", but it wasn't found on type " 
+                    + viewModelType + "."
+                );
             }
 
             // Get value from view model.
             var viewModelValue = viewModelCollectionProperty.GetValue(viewModel, null);
             if (viewModelValue == null)
             {
-                throw new PropertyNullException("Cannot bind to null property in view: " + viewModelPropertyName);
+                throw new PropertyNullException(
+                    "Cannot bind to null property in view: " 
+                    + ViewModelPropertyName
+                );
             }
 
-            if (!(viewModelValue is IEnumerable))
+            viewModelCollectionValue = viewModelValue as IEnumerable;
+            if (viewModelCollectionValue == null)
             {
-                throw new InvalidTypeException("Property " + viewModelPropertyName + " is not a collection and cannot be used to bind collections.");
+                throw new InvalidTypeException(
+                    "Property " 
+                    + ViewModelPropertyName 
+                    + " is not a collection and cannot be used to bind collections."
+                );
             }
-            viewModelCollectionValue = (IEnumerable)viewModelValue;
 
             // Generate children
             var collectionAsList = viewModelCollectionValue.Cast<object>().ToList();

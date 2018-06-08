@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,6 +7,7 @@ using UnityWeld.Binding.Internal;
 namespace UnityWeld.Binding
 {
     [RequireComponent(typeof(Dropdown))]
+    [AddComponentMenu("Unity Weld/Dropdown Binding")]
     [HelpURL("https://github.com/Real-Serious-Games/Unity-Weld")]
     public class DropdownBinding : AbstractMemberBinding
     {
@@ -126,8 +127,8 @@ namespace UnityWeld.Binding
             );
 
             // Copy the initial value from view-model to view.
-            selectionPropertySync.SyncFromSource();
             optionsPropertySync.SyncFromSource();
+            selectionPropertySync.SyncFromSource();
             UpdateOptions();
         }
 
@@ -208,8 +209,6 @@ namespace UnityWeld.Binding
             dropdown.options = options
                 .Select(option => new Dropdown.OptionData(option))
                 .ToList();
-
-            UpdateSelectedOption();
         }
 
         /// <summary>

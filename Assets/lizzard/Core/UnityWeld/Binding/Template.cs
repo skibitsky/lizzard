@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.Assertions;
 
 namespace UnityWeld.Binding
@@ -17,6 +17,7 @@ namespace UnityWeld.Binding
     /// <summary>
     /// Template for use in collection bindings.
     /// </summary>
+    [AddComponentMenu("Unity Weld/Template")]
     [HelpURL("https://github.com/Real-Serious-Games/Unity-Weld")]
     public class Template : MonoBehaviour, IViewModelProvider, ITemplate
     {
@@ -36,7 +37,14 @@ namespace UnityWeld.Binding
             return viewModelTypeName;
         }
 
-        public string viewModelTypeName = string.Empty;
+        public string ViewModelTypeName
+        {
+            get { return viewModelTypeName; }
+            set { viewModelTypeName = value; }
+        }
+
+        [SerializeField]
+        private string viewModelTypeName = string.Empty;
 
         /// <summary>
         /// Cached view-model object.

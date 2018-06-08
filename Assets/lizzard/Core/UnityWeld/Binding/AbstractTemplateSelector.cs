@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -18,7 +18,14 @@ namespace UnityWeld.Binding
         /// <summary>
         /// The name of the property we are binding to on the view model.
         /// </summary>
-        public string viewModelPropertyName = string.Empty;
+        public string ViewModelPropertyName
+        {
+            get { return viewModelPropertyName; }
+            set { viewModelPropertyName = value; }
+        }
+
+        [SerializeField]
+        private string viewModelPropertyName = string.Empty;
 
         /// <summary>
         /// Watches the view-model property for changes.
@@ -26,9 +33,16 @@ namespace UnityWeld.Binding
         protected PropertyWatcher viewModelPropertyWatcher;
 
         /// <summary>
-        /// The gameobject in the scene that is the parent object for the tenplates.
+        /// The GameObject in the scene that is the parent object for the tenplates.
         /// </summary>
-        public GameObject templatesRoot;
+        public GameObject TemplatesRoot
+        {
+            get { return templatesRoot; }
+            set { templatesRoot = value; }
+        }
+
+        [SerializeField]
+        private GameObject templatesRoot;
 
         /// <summary>
         /// All available templates indexed by the view model the are for.
@@ -76,17 +90,10 @@ namespace UnityWeld.Binding
 
         /// <summary>
         /// Create a clone of the template object and bind it to the specified view model.
+        /// Place the new object under the parent at the specified index, or 0 if no index
+        /// is specified.
         /// </summary>
-        protected void InstantiateTemplate(object templateViewModel)
-        {
-            InstantiateTemplate(templateViewModel, 0);
-        }
-
-        /// <summary>
-        /// Create a clone of the template object and bind it to the specified view model.
-        /// Place the new object under the parent at the specified index.
-        /// </summary>
-        protected void InstantiateTemplate(object templateViewModel, int index)
+        protected void InstantiateTemplate(object templateViewModel, int index = 0)
         {
             Assert.IsNotNull(templateViewModel, "Cannot instantiate child with null view model");
             
@@ -111,17 +118,18 @@ namespace UnityWeld.Binding
         /// </summary>
         private Template FindTemplateForType(Type templateType)
         {
-            var possibleMatches = FindTypesMatchingTemplate(templateType).ToList();
+            var possibleMatches = FindTypesMatchingTemplate(templateType)
+                .OrderBy(m => m.Key)
+                .ToList();
 
             if (!possibleMatches.Any())
             {
                 throw new TemplateNotFoundException("Could not find any template matching type " + templateType);
             }
 
-            var sorted = possibleMatches.OrderBy(m => m.Key);
-            var selectedType = sorted.First();
+            var selectedType = possibleMatches.First();
 
-            if (sorted.Skip(1).Any(m => m.Key == selectedType.Key))
+            if (possibleMatches.Skip(1).Any(m => m.Key == selectedType.Key))
             {
                 throw new AmbiguousTypeException("Multiple templates were found that match type " + templateType
                     + ". This can be caused by providing multiple templates that match types " + templateType
