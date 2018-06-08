@@ -2,147 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85fe2f2c-15f9-4318-83bc-d7d28e48e360" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.lizzard/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lizzard/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AbstractMemberBinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AbstractMemberBinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AbstractMemberBinding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AbstractMemberBinding.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AbstractTemplateSelector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AbstractTemplateSelector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AbstractTemplateSelector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AbstractTemplateSelector.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AdapterAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AdapterAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AdapterAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AdapterAttribute.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AdapterOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AdapterOptions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AdapterOptions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AdapterOptions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolInversionAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolInversionAdapter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolInversionAdapter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolInversionAdapter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorAdapter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorAdapter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorAdapter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorAdapterOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorAdapterOptions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorAdapterOptions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorAdapterOptions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorBlockAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorBlockAdapter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorBlockAdapter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorBlockAdapter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorBlockAdapterOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorBlockAdapterOptions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorBlockAdapterOptions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToColorBlockAdapterOptions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToStringAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToStringAdapter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToStringAdapter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToStringAdapter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToStringAdapterOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToStringAdapterOptions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToStringAdapterOptions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/BoolToStringAdapterOptions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/DateTimeToStringAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/DateTimeToStringAdapter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/DateTimeToStringAdapter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/DateTimeToStringAdapter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/DateTimeToStringAdapterOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/DateTimeToStringAdapterOptions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/DateTimeToStringAdapterOptions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/DateTimeToStringAdapterOptions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/FloatToStringAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/FloatToStringAdapter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/FloatToStringAdapter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/FloatToStringAdapter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/FloatToStringAdapterOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/FloatToStringAdapterOptions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/FloatToStringAdapterOptions.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/FloatToStringAdapterOptions.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/IntToStringAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/IntToStringAdapter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/IntToStringAdapter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/IntToStringAdapter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/StringToFloatAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/StringToFloatAdapter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/StringToFloatAdapter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/StringToFloatAdapter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/StringToIntAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/StringToIntAdapter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/StringToIntAdapter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Adapters/StringToIntAdapter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/BindingAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/BindingAttribute.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/BindingAttribute.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/BindingAttribute.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/BoundObservableList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/BoundObservableList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/BoundObservableList.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/BoundObservableList.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/CollectionBinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/CollectionBinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/CollectionBinding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/CollectionBinding.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/DropdownBinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/DropdownBinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/DropdownBinding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/DropdownBinding.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/EventBinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/EventBinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/EventBinding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/EventBinding.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/AmbiguousTypeException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/AmbiguousTypeException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/AmbiguousTypeException.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/AmbiguousTypeException.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/ComponentNotFoundException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/ComponentNotFoundException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/ComponentNotFoundException.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/ComponentNotFoundException.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidAdapterException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidAdapterException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidAdapterException.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidAdapterException.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidEndPointException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidEndPointException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidEndPointException.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidEndPointException.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidEventException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidEventException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidEventException.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidEventException.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidTypeException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidTypeException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidTypeException.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/InvalidTypeException.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/MemberNotFoundException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/MemberNotFoundException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/MemberNotFoundException.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/MemberNotFoundException.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/NoSuchAdapterException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/NoSuchAdapterException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/NoSuchAdapterException.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/NoSuchAdapterException.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/PropertyNullException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/PropertyNullException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/PropertyNullException.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/PropertyNullException.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/TemplateNotFoundException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/TemplateNotFoundException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/TemplateNotFoundException.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/TemplateNotFoundException.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/ViewModelNotFoundException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/ViewModelNotFoundException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/ViewModelNotFoundException.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Exceptions/ViewModelNotFoundException.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/IAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/IAdapter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/IAdapter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/IAdapter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/IMemberBinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/IMemberBinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/IMemberBinding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/IMemberBinding.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/INotifyCollectionChanged.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/INotifyCollectionChanged.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/INotifyCollectionChanged.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/INotifyCollectionChanged.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/IViewModelProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/IViewModelProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/IViewModelProvider.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/IViewModelProvider.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/BindableMember.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/BindableMember.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/BindableMember.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/BindableMember.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertyEndPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertyEndPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertyEndPoint.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertyEndPoint.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertyFinder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertyFinder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertyFinder.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertyFinder.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertySync.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertySync.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertySync.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertySync.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertyWatcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertyWatcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertyWatcher.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/PropertyWatcher.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/TypeResolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/TypeResolver.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/TypeResolver.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/TypeResolver.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/UnityEventBinder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/UnityEventBinder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/UnityEventBinder.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/UnityEventBinder.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/UnityEventWatcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/UnityEventWatcher.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/UnityEventWatcher.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Internal/UnityEventWatcher.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/NotifyCollectionChangedEventArgs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/NotifyCollectionChangedEventArgs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/NotifyCollectionChangedEventArgs.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/NotifyCollectionChangedEventArgs.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/ObservableList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/ObservableList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/ObservableList.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/ObservableList.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/OneWayPropertyBinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/OneWayPropertyBinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/OneWayPropertyBinding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/OneWayPropertyBinding.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/SubViewModelBinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/SubViewModelBinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/SubViewModelBinding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/SubViewModelBinding.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Template.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Template.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Template.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/Template.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/TemplateBinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/TemplateBinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/TemplateBinding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/TemplateBinding.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/ToggleActiveBinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/ToggleActiveBinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/ToggleActiveBinding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/ToggleActiveBinding.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/TwoWayPropertyBinding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/TwoWayPropertyBinding.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/TwoWayPropertyBinding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/TwoWayPropertyBinding.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/BaseBindingEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/BaseBindingEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/CollectionBindingEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/CollectionBindingEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/EventBindingEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/EventBindingEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/InspectorUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/InspectorUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/OneWayPropertyBindingEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/OneWayPropertyBindingEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/SubViewModelBindingEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/SubViewModelBindingEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/TemplateBindingEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/TemplateBindingEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/TemplateEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/TemplateEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/ToggleActiveBindingEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/ToggleActiveBindingEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/TwoWayPropertyBindingEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Editor/TwoWayPropertyBindingEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Widgets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Widgets.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Widgets/DropdownAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Widgets/DropdownAdapter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Widgets/DropdownAdapter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Widgets/DropdownAdapter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupMediatorsCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupMediatorsCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupProxiesCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupProxiesCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Scripts/NamesDirectory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/NamesDirectory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.lizzard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lizzard/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -156,8 +16,8 @@
       <file leaf-file-name="SpawnActionMediator.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/Mediators/SpawnActionMediator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding>
                 <marker date="1521989582000" expanded="false" signature="6:71" ph="..." />
                 <marker date="1521989582000" expanded="true" signature="101:756" ph="{...}" />
@@ -169,67 +29,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Facade.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Facade.cs">
+      <file leaf-file-name="UnityFacade.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/UnityFacade.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="510">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <marker date="1528491208468" expanded="true" signature="42:708" ph="{...}" />
-                <marker date="1528491208468" expanded="true" signature="99:705" ph="{...}" />
-                <marker date="1528491208468" expanded="true" signature="360:502" ph="{...}" />
-                <marker date="1528491208468" expanded="true" signature="512:588" ph="/// Call me to start the party! ... " />
-                <marker date="1528491208468" expanded="true" signature="626:699" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NamesDirectory.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/NamesDirectory.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="15" />
-              <folding>
-                <marker date="1528492389084" expanded="true" signature="0:75" ph="/* ReSharper disable InconsistentNaming ... */" />
-                <marker date="1528492389084" expanded="true" signature="110:1760" ph="{...}" />
-                <marker date="1528492389084" expanded="true" signature="374:746" ph="EngineProxy" />
-                <marker date="1528492389084" expanded="false" signature="752:969" ph="LoginProxy" />
-                <marker date="1528492389084" expanded="false" signature="975:1472" ph="InventoryProxy" />
-                <marker date="1528492389084" expanded="false" signature="1478:1758" ph="UI" />
-                <marker date="1528492389084" expanded="true" signature="1799:1919" ph="{...}" />
-                <marker date="1528492389084" expanded="true" signature="1951:2420" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpawnGameObject.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/SpawnGameObject.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-              <folding>
-                <marker date="1521989678000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1521989678000" expanded="true" signature="106:1158" ph="{...}" />
-                <marker date="1521989678000" expanded="true" signature="164:627" ph="{...}" />
-                <marker date="1521989678000" expanded="true" signature="235:621" ph="{...}" />
-                <marker date="1521989678000" expanded="true" signature="665:1156" ph="{...}" />
-                <marker date="1521989678000" expanded="true" signature="807:997" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StartupEngineCommand.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="88" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
-              <folding>
-                <marker date="1528492368562" expanded="false" signature="6:59" ph="..." />
-                <marker date="1528492368562" expanded="true" signature="87:656" ph="{...}" />
-                <marker date="1528492368562" expanded="true" signature="143:654" ph="{...}" />
-                <marker date="1528492368562" expanded="true" signature="214:648" ph="{...}" />
+                <marker date="1521989582000" expanded="true" signature="0:85" ph="/* ReSharper disable ArrangeAccessorOwnerBody ... */" />
+                <marker date="1521989582000" expanded="true" signature="93:139" ph="..." />
+                <marker date="1521989582000" expanded="true" signature="169:978" ph="{...}" />
+                <marker date="1521989582000" expanded="true" signature="176:270" ph="/// Defaul Facade to use or inherit from in Unity project ... " />
+                <marker date="1521989582000" expanded="true" signature="308:976" ph="{...}" />
+                <marker date="1521989582000" expanded="true" signature="610:853" ph="{...}" />
+                <marker date="1521989582000" expanded="true" signature="892:969" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -254,14 +66,16 @@
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AbstractMemberBinding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/Mediators/SpawnActionMediator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Proxies/EngineProxy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/SpawnGameObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupProxiesCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupMediatorsCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/UnityFacade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/StartCoroutineCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/StopCoroutineCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/GameLauncher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/LoadSceneCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Facade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/SpawnGameObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/NamesDirectory.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -272,8 +86,8 @@
         <option value="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AbstractMemberBinding.cs" />
         <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupMediatorsCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupProxiesCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/NamesDirectory.cs" />
         <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/NamesDirectory.cs" />
       </list>
     </option>
   </component>
@@ -426,12 +240,12 @@
       <updated>1528490414756</updated>
       <workItem from="1528490417545" duration="82000" />
       <workItem from="1528490527161" duration="197000" />
-      <workItem from="1528490740929" duration="1453000" />
+      <workItem from="1528490740929" duration="2550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1732000" />
+    <option name="totallyTimeSpent" value="2829000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,6 +258,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -489,7 +304,7 @@
           <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <marker date="1521989582000" expanded="true" signature="0:85" ph="/* ReSharper disable ArrangeAccessorOwnerBody ... */" />
-            <marker date="1521989582000" expanded="false" signature="93:139" ph="..." />
+            <marker date="1521989582000" expanded="true" signature="93:139" ph="..." />
             <marker date="1521989582000" expanded="true" signature="169:978" ph="{...}" />
             <marker date="1521989582000" expanded="true" signature="176:270" ph="/// Defaul Facade to use or inherit from in Unity project ... " />
             <marker date="1521989582000" expanded="true" signature="308:976" ph="{...}" />
@@ -601,22 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/UnityFacade.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <marker date="1521989582000" expanded="true" signature="0:85" ph="/* ReSharper disable ArrangeAccessorOwnerBody ... */" />
-            <marker date="1521989582000" expanded="false" signature="93:139" ph="..." />
-            <marker date="1521989582000" expanded="true" signature="169:978" ph="{...}" />
-            <marker date="1521989582000" expanded="true" signature="176:270" ph="/// Defaul Facade to use or inherit from in Unity project ... " />
-            <marker date="1521989582000" expanded="true" signature="308:976" ph="{...}" />
-            <marker date="1521989582000" expanded="true" signature="610:853" ph="{...}" />
-            <marker date="1521989582000" expanded="true" signature="892:969" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupMediatorsCommand.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -662,17 +461,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/Mediators/SpawnActionMediator.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/SpawnGameObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding>
-            <marker date="1521989582000" expanded="false" signature="6:71" ph="..." />
-            <marker date="1521989582000" expanded="true" signature="101:756" ph="{...}" />
-            <marker date="1521989582000" expanded="true" signature="151:754" ph="{...}" />
-            <marker date="1521989582000" expanded="true" signature="196:596" ph="{...}" />
-            <marker date="1521989582000" expanded="true" signature="674:748" ph="{...}" />
-          </folding>
+        <state relative-caret-position="525">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -689,32 +481,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/NamesDirectory.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/Mediators/SpawnActionMediator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="15" />
+        <state relative-caret-position="225">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
-            <marker date="1528492389084" expanded="true" signature="0:75" ph="/* ReSharper disable InconsistentNaming ... */" />
-            <marker date="1528492389084" expanded="true" signature="110:1760" ph="{...}" />
-            <marker date="1528492389084" expanded="true" signature="374:746" ph="EngineProxy" />
-            <marker date="1528492389084" expanded="false" signature="752:969" ph="LoginProxy" />
-            <marker date="1528492389084" expanded="false" signature="975:1472" ph="InventoryProxy" />
-            <marker date="1528492389084" expanded="false" signature="1478:1758" ph="UI" />
-            <marker date="1528492389084" expanded="true" signature="1799:1919" ph="{...}" />
-            <marker date="1528492389084" expanded="true" signature="1951:2420" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="88" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
-          <folding>
-            <marker date="1528492368562" expanded="false" signature="6:59" ph="..." />
-            <marker date="1528492368562" expanded="true" signature="87:656" ph="{...}" />
-            <marker date="1528492368562" expanded="true" signature="143:654" ph="{...}" />
-            <marker date="1528492368562" expanded="true" signature="214:648" ph="{...}" />
+            <marker date="1521989582000" expanded="false" signature="6:71" ph="..." />
+            <marker date="1521989582000" expanded="true" signature="101:756" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="151:754" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="196:596" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="674:748" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -731,17 +507,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/SpawnGameObject.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/SpawnGameObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+        <state relative-caret-position="300">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
-            <marker date="1521989678000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1521989678000" expanded="true" signature="6:78" ph="..." />
             <marker date="1521989678000" expanded="true" signature="106:1158" ph="{...}" />
             <marker date="1521989678000" expanded="true" signature="164:627" ph="{...}" />
             <marker date="1521989678000" expanded="true" signature="235:621" ph="{...}" />
             <marker date="1521989678000" expanded="true" signature="665:1156" ph="{...}" />
             <marker date="1521989678000" expanded="true" signature="807:997" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/StopCoroutineCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1528491208477" expanded="false" signature="6:108" ph="..." />
+            <marker date="1528491208477" expanded="true" signature="136:522" ph="{...}" />
+            <marker date="1528491208477" expanded="true" signature="192:520" ph="{...}" />
+            <marker date="1528491208477" expanded="true" signature="263:514" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <marker date="1528492368562" expanded="false" signature="6:59" ph="..." />
+            <marker date="1528492368562" expanded="true" signature="87:656" ph="{...}" />
+            <marker date="1528492368562" expanded="true" signature="143:654" ph="{...}" />
+            <marker date="1528492368562" expanded="true" signature="214:648" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/NamesDirectory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <marker date="1528492603171" expanded="true" signature="0:75" ph="/* ReSharper disable InconsistentNaming ... */" />
+            <marker date="1528492603171" expanded="true" signature="110:538" ph="{...}" />
+            <marker date="1528492603171" expanded="true" signature="163:535" ph="EngineProxy" />
+            <marker date="1528492603171" expanded="true" signature="571:629" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/GameLauncher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <marker date="1521989582000" expanded="true" signature="6:38" ph="..." />
+            <marker date="1521989582000" expanded="true" signature="68:227" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="116:224" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="151:218" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/UnityFacade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <marker date="1521989582000" expanded="true" signature="0:85" ph="/* ReSharper disable ArrangeAccessorOwnerBody ... */" />
+            <marker date="1521989582000" expanded="true" signature="93:139" ph="..." />
+            <marker date="1521989582000" expanded="true" signature="169:978" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="176:270" ph="/// Defaul Facade to use or inherit from in Unity project ... " />
+            <marker date="1521989582000" expanded="true" signature="308:976" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="610:853" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="892:969" ph="{...}" />
           </folding>
         </state>
       </provider>
