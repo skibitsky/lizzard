@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85fe2f2c-15f9-4318-83bc-d7d28e48e360" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/MobileInput.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/MobileInput/StartupMobileImput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/MobileInput/StartupMobileImput.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.lizzard/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lizzard/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.lizzard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lizzard/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityPureMVC/Core/View.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityPureMVC/Core/View.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Core/UnityPureMVC/Interfaces/IView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Core/UnityPureMVC/Interfaces/IView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/RegisterCommandsCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/RegisterCommandsCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Scripts/MacroCommands/StartupMacroCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/MacroCommands/StartupMacroCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Scripts/NamesDirectory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/NamesDirectory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Scripts/Proxies/EngineProxy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/Proxies/EngineProxy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/CoroutineRunner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/CoroutineRunner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/DontDestroyOnLoad.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/DontDestroyOnLoad.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/MonoBehaviourViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/MonoBehaviourModelView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/MonoBehaviourViewModel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/MonoBehaviourModelView.cs.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,42 +26,163 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpawnActionMediator.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/Mediators/SpawnActionMediator.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding>
-                <marker date="1521989582000" expanded="false" signature="6:71" ph="..." />
-                <marker date="1521989582000" expanded="true" signature="101:756" ph="{...}" />
-                <marker date="1521989582000" expanded="true" signature="151:754" ph="{...}" />
-                <marker date="1521989582000" expanded="true" signature="196:596" ph="{...}" />
-                <marker date="1521989582000" expanded="true" signature="674:748" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnityFacade.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/UnityFacade.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <marker date="1521989582000" expanded="true" signature="0:85" ph="/* ReSharper disable ArrangeAccessorOwnerBody ... */" />
-                <marker date="1521989582000" expanded="true" signature="93:139" ph="..." />
-                <marker date="1521989582000" expanded="true" signature="169:978" ph="{...}" />
-                <marker date="1521989582000" expanded="true" signature="176:270" ph="/// Defaul Facade to use or inherit from in Unity project ... " />
-                <marker date="1521989582000" expanded="true" signature="308:976" ph="{...}" />
-                <marker date="1521989582000" expanded="true" signature="610:853" ph="{...}" />
-                <marker date="1521989582000" expanded="true" signature="892:969" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.62666667">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="SpawnActionMediator.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/Mediators/SpawnActionMediator.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+                  <folding>
+                    <marker date="1521989582000" expanded="false" signature="6:71" ph="..." />
+                    <marker date="1521989582000" expanded="true" signature="101:756" ph="{...}" />
+                    <marker date="1521989582000" expanded="true" signature="151:754" ph="{...}" />
+                    <marker date="1521989582000" expanded="true" signature="196:596" ph="{...}" />
+                    <marker date="1521989582000" expanded="true" signature="674:748" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StartCoroutineCommand.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/StartCoroutineCommand.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+                  <folding>
+                    <marker date="1528491208465" expanded="false" signature="6:108" ph="..." />
+                    <marker date="1528491208465" expanded="true" signature="136:524" ph="{...}" />
+                    <marker date="1528491208465" expanded="true" signature="193:522" ph="{...}" />
+                    <marker date="1528491208465" expanded="true" signature="264:516" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StartupMacroCommand.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/MacroCommands/StartupMacroCommand.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+                  <folding>
+                    <marker date="1528501828290" expanded="false" signature="6:87" ph="..." />
+                    <marker date="1528501828290" expanded="true" signature="115:1021" ph="{...}" />
+                    <marker date="1528501828290" expanded="true" signature="169:1019" ph="{...}" />
+                    <marker date="1528501828290" expanded="true" signature="232:680" ph="{...}" />
+                    <marker date="1528501828290" expanded="true" signature="746:1013" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="EngineProxy.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Proxies/EngineProxy.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="330">
+                  <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+                  <folding>
+                    <marker date="1528503591312" expanded="false" signature="6:167" ph="..." />
+                    <marker date="1528503591312" expanded="true" signature="194:1802" ph="{...}" />
+                    <marker date="1528503591312" expanded="true" signature="233:1800" ph="{...}" />
+                    <marker date="1528503591312" expanded="true" signature="379:831" ph="{...}" />
+                    <marker date="1528503591312" expanded="true" signature="564:763" ph="{...}" />
+                    <marker date="1528503591312" expanded="true" signature="902:1100" ph="{...}" />
+                    <marker date="1528503591312" expanded="true" signature="1110:1794" ph="Coroutine stuff" />
+                    <marker date="1528503591312" expanded="true" signature="1190:1305" ph="{...}" />
+                    <marker date="1528503591312" expanded="true" signature="1361:1475" ph="{...}" />
+                    <marker date="1528503591312" expanded="true" signature="1529:1663" ph="{...}" />
+                    <marker date="1528503591312" expanded="true" signature="1704:1774" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CoroutineRunner.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/CoroutineRunner.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+                  <folding>
+                    <marker date="1528503486606" expanded="true" signature="89:403" ph="{...}" />
+                    <marker date="1528503486606" expanded="true" signature="140:401" ph="{...}" />
+                    <marker date="1528503486606" expanded="true" signature="224:264" ph="{...}" />
+                    <marker date="1528503486606" expanded="true" signature="292:395" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DontDestroyOnLoad.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/DontDestroyOnLoad.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="17" selection-start-line="17" selection-end-line="17" />
+                  <folding>
+                    <marker date="1528503120317" expanded="true" signature="53:330" ph="{...}" />
+                    <marker date="1528503120317" expanded="true" signature="106:328" ph="{...}" />
+                    <marker date="1528503120317" expanded="true" signature="207:322" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="RegisterCommandsCommand.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/RegisterCommandsCommand.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+                  <folding>
+                    <marker date="1528500390566" expanded="false" signature="6:59" ph="..." />
+                    <marker date="1528500390566" expanded="true" signature="87:413" ph="{...}" />
+                    <marker date="1528500390566" expanded="true" signature="193:411" ph="{...}" />
+                    <marker date="1528500390566" expanded="true" signature="264:405" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StartupEngineCommand.cs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="13" column="91" selection-start-line="13" selection-start-column="91" selection-end-line="13" selection-end-column="91" />
+                  <folding>
+                    <marker date="1528502639624" expanded="false" signature="6:59" ph="..." />
+                    <marker date="1528502639624" expanded="true" signature="87:656" ph="{...}" />
+                    <marker date="1528502639624" expanded="true" signature="143:654" ph="{...}" />
+                    <marker date="1528502639624" expanded="true" signature="214:648" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StartupMobileImput.cs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/MobileInput/StartupMobileImput.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+                  <folding>
+                    <marker date="1528502823162" expanded="false" signature="6:118" ph="..." />
+                    <marker date="1528502823162" expanded="true" signature="146:1636" ph="{...}" />
+                    <marker date="1528502823162" expanded="true" signature="200:1634" ph="{...}" />
+                    <marker date="1528502823162" expanded="true" signature="271:420" ph="{...}" />
+                    <marker date="1528502823162" expanded="true" signature="470:1628" ph="{...}" />
+                    <marker date="1528502823162" expanded="true" signature="522:1618" ph="{...}" />
+                    <marker date="1528502823162" expanded="true" signature="589:1568" ph="{...}" />
+                    <marker date="1528502823162" expanded="true" signature="648:1550" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -62,32 +197,48 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/GameLauncher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/CoroutineRunner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/DontDestroyOnLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/MonoBehaviourModelView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/UnityFacade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/GameLauncher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Facade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/SpawnGameObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/MobileInput/StartupMobileImput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/NamesDirectory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AbstractMemberBinding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/Mediators/SpawnActionMediator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Proxies/EngineProxy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupProxiesCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/RegisterCommandsCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupMediatorsCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/UnityFacade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/StartCoroutineCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/StopCoroutineCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/GameLauncher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/LoadSceneCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Facade.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/SpawnGameObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/NamesDirectory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/MacroCommands/StartupMacroCommand.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/GameLauncher.cs" />
-        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/DontDestroyOnLoad.cs" />
         <option value="$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AbstractMemberBinding.cs" />
         <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupMediatorsCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupProxiesCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/TouchBeganCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/RegisterCommandsCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/MobileInput/TouchBeganCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/MacroCommands/InitMobileInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/MobileInput/InitMobileImput.cs" />
+        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/MobileInput/LaunchMobileImput.cs" />
+        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/MacroCommands/StartupMacroCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/NamesDirectory.cs" />
+        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/MobileInput/StartupMobileImput.cs" />
+        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/DontDestroyOnLoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/MonoBehaviourModelView.cs" />
+        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/CoroutineRunner.cs" />
+        <option value="$PROJECT_DIR$/Assets/lizzard/Scripts/Proxies/EngineProxy.cs" />
       </list>
     </option>
   </component>
@@ -189,6 +340,21 @@
               <item name="" type="1045f7f1:UnityExplorerNode" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
               <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="lizzard" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="lizzard" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -240,12 +406,12 @@
       <updated>1528490414756</updated>
       <workItem from="1528490417545" duration="82000" />
       <workItem from="1528490527161" duration="197000" />
-      <workItem from="1528490740929" duration="2550000" />
+      <workItem from="1528490740929" duration="6189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2829000" />
+    <option name="totallyTimeSpent" value="6468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,31 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/GameLauncher.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <marker date="1528491159508" expanded="true" signature="53:263" ph="{...}" />
-            <marker date="1528491159508" expanded="true" signature="60:112" ph="/// Game's Papa ... " />
-            <marker date="1528491159508" expanded="true" signature="158:261" ph="{...}" />
-            <marker date="1528491159508" expanded="true" signature="193:255" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/DontDestroyOnLoad.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1528491205269" expanded="true" signature="53:275" ph="{...}" />
-            <marker date="1528491205269" expanded="true" signature="106:273" ph="{...}" />
-            <marker date="1528491205269" expanded="true" signature="207:267" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/lizzard/Core/UnityWeld/Binding/AbstractMemberBinding.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -442,68 +583,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Proxies/EngineProxy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <marker date="1528491208472" expanded="false" signature="6:148" ph="..." />
-            <marker date="1528491208472" expanded="true" signature="175:1532" ph="{...}" />
-            <marker date="1528491208472" expanded="true" signature="214:1530" ph="{...}" />
-            <marker date="1528491208472" expanded="true" signature="360:495" ph="{...}" />
-            <marker date="1528491208472" expanded="true" signature="566:830" ph="{...}" />
-            <marker date="1528491208472" expanded="true" signature="840:1524" ph="Coroutine stuff" />
-            <marker date="1528491208472" expanded="true" signature="920:1035" ph="{...}" />
-            <marker date="1528491208472" expanded="true" signature="1091:1205" ph="{...}" />
-            <marker date="1528491208472" expanded="true" signature="1259:1393" ph="{...}" />
-            <marker date="1528491208472" expanded="true" signature="1434:1504" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/SpawnGameObject.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Facade.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1528491208468" expanded="true" signature="42:708" ph="{...}" />
-            <marker date="1528491208468" expanded="true" signature="99:705" ph="{...}" />
-            <marker date="1528491208468" expanded="true" signature="360:502" ph="{...}" />
-            <marker date="1528491208468" expanded="true" signature="512:588" ph="/// Call me to start the party! ... " />
-            <marker date="1528491208468" expanded="true" signature="626:699" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/Mediators/SpawnActionMediator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <marker date="1521989582000" expanded="false" signature="6:71" ph="..." />
-            <marker date="1521989582000" expanded="true" signature="101:756" ph="{...}" />
-            <marker date="1521989582000" expanded="true" signature="151:754" ph="{...}" />
-            <marker date="1521989582000" expanded="true" signature="196:596" ph="{...}" />
-            <marker date="1521989582000" expanded="true" signature="674:748" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/StartCoroutineCommand.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1528491208465" expanded="false" signature="6:108" ph="..." />
-            <marker date="1528491208465" expanded="true" signature="136:524" ph="{...}" />
-            <marker date="1528491208465" expanded="true" signature="193:522" ph="{...}" />
-            <marker date="1528491208465" expanded="true" signature="264:516" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,32 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding>
-            <marker date="1528492368562" expanded="false" signature="6:59" ph="..." />
-            <marker date="1528492368562" expanded="true" signature="87:656" ph="{...}" />
-            <marker date="1528492368562" expanded="true" signature="143:654" ph="{...}" />
-            <marker date="1528492368562" expanded="true" signature="214:648" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/NamesDirectory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <marker date="1528492603171" expanded="true" signature="0:75" ph="/* ReSharper disable InconsistentNaming ... */" />
-            <marker date="1528492603171" expanded="true" signature="110:538" ph="{...}" />
-            <marker date="1528492603171" expanded="true" signature="163:535" ph="EngineProxy" />
-            <marker date="1528492603171" expanded="true" signature="571:629" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/GameLauncher.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -573,10 +630,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/TouchBeganCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/RegisterCommandsCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+          <folding>
+            <marker date="1528500390566" expanded="false" signature="6:59" ph="..." />
+            <marker date="1528500390566" expanded="true" signature="87:413" ph="{...}" />
+            <marker date="1528500390566" expanded="true" signature="193:411" ph="{...}" />
+            <marker date="1528500390566" expanded="true" signature="264:405" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/GameLauncher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <marker date="1528491159508" expanded="true" signature="53:263" ph="{...}" />
+            <marker date="1528491159508" expanded="true" signature="60:112" ph="/// Game's Papa ... " />
+            <marker date="1528491159508" expanded="true" signature="158:261" ph="{...}" />
+            <marker date="1528491159508" expanded="true" signature="193:255" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/MacroCommands/InitMobileInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Facade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1528491208468" expanded="true" signature="42:708" ph="{...}" />
+            <marker date="1528491208468" expanded="true" signature="99:705" ph="{...}" />
+            <marker date="1528491208468" expanded="true" signature="360:502" ph="{...}" />
+            <marker date="1528491208468" expanded="true" signature="512:588" ph="/// Call me to start the party! ... " />
+            <marker date="1528491208468" expanded="true" signature="626:699" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/MobileInput/TouchBeganCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/UnityFacade.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <marker date="1521989582000" expanded="true" signature="0:85" ph="/* ReSharper disable ArrangeAccessorOwnerBody ... */" />
             <marker date="1521989582000" expanded="true" signature="93:139" ph="..." />
@@ -585,6 +702,150 @@
             <marker date="1521989582000" expanded="true" signature="308:976" ph="{...}" />
             <marker date="1521989582000" expanded="true" signature="610:853" ph="{...}" />
             <marker date="1521989582000" expanded="true" signature="892:969" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/StartupEngineCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="91" selection-start-line="13" selection-start-column="91" selection-end-line="13" selection-end-column="91" />
+          <folding>
+            <marker date="1528502639624" expanded="false" signature="6:59" ph="..." />
+            <marker date="1528502639624" expanded="true" signature="87:656" ph="{...}" />
+            <marker date="1528502639624" expanded="true" signature="143:654" ph="{...}" />
+            <marker date="1528502639624" expanded="true" signature="214:648" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/NamesDirectory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1528502439011" expanded="true" signature="0:75" ph="/* ReSharper disable InconsistentNaming ... */" />
+            <marker date="1528502439011" expanded="true" signature="110:928" ph="{...}" />
+            <marker date="1528502439011" expanded="true" signature="163:925" ph="EngineProxy" />
+            <marker date="1528502439011" expanded="true" signature="960:1018" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Examples/Legacy/01/Scripts/Mediators/SpawnActionMediator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <marker date="1521989582000" expanded="false" signature="6:71" ph="..." />
+            <marker date="1521989582000" expanded="true" signature="101:756" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="151:754" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="196:596" ph="{...}" />
+            <marker date="1521989582000" expanded="true" signature="674:748" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/MacroCommands/StartupMacroCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+          <folding>
+            <marker date="1528501828290" expanded="false" signature="6:87" ph="..." />
+            <marker date="1528501828290" expanded="true" signature="115:1021" ph="{...}" />
+            <marker date="1528501828290" expanded="true" signature="169:1019" ph="{...}" />
+            <marker date="1528501828290" expanded="true" signature="232:680" ph="{...}" />
+            <marker date="1528501828290" expanded="true" signature="746:1013" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/MobileInput/StartupMobileImput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <marker date="1528502823162" expanded="false" signature="6:118" ph="..." />
+            <marker date="1528502823162" expanded="true" signature="146:1636" ph="{...}" />
+            <marker date="1528502823162" expanded="true" signature="200:1634" ph="{...}" />
+            <marker date="1528502823162" expanded="true" signature="271:420" ph="{...}" />
+            <marker date="1528502823162" expanded="true" signature="470:1628" ph="{...}" />
+            <marker date="1528502823162" expanded="true" signature="522:1618" ph="{...}" />
+            <marker date="1528502823162" expanded="true" signature="589:1568" ph="{...}" />
+            <marker date="1528502823162" expanded="true" signature="648:1550" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Commands/EngineCommands/StartCoroutineCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding>
+            <marker date="1528491208465" expanded="false" signature="6:108" ph="..." />
+            <marker date="1528491208465" expanded="true" signature="136:524" ph="{...}" />
+            <marker date="1528491208465" expanded="true" signature="193:522" ph="{...}" />
+            <marker date="1528491208465" expanded="true" signature="264:516" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/MonoBehaviourModelView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <marker date="1528503214641" expanded="false" signature="6:68" ph="..." />
+            <marker date="1528503214641" expanded="true" signature="87:652" ph="{...}" />
+            <marker date="1528503214641" expanded="true" signature="159:650" ph="{...}" />
+            <marker date="1528503214641" expanded="true" signature="251:375" ph="{...}" />
+            <marker date="1528503214641" expanded="true" signature="434:538" ph="{...}" />
+            <marker date="1528503214641" expanded="true" signature="572:644" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/CoroutineRunner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <marker date="1528503486606" expanded="true" signature="89:403" ph="{...}" />
+            <marker date="1528503486606" expanded="true" signature="140:401" ph="{...}" />
+            <marker date="1528503486606" expanded="true" signature="224:264" ph="{...}" />
+            <marker date="1528503486606" expanded="true" signature="292:395" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/UnityComponents/DontDestroyOnLoad.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <marker date="1528503120317" expanded="true" signature="53:330" ph="{...}" />
+            <marker date="1528503120317" expanded="true" signature="106:328" ph="{...}" />
+            <marker date="1528503120317" expanded="true" signature="207:322" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/lizzard/Scripts/Proxies/EngineProxy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <marker date="1528503591312" expanded="false" signature="6:167" ph="..." />
+            <marker date="1528503591312" expanded="true" signature="194:1802" ph="{...}" />
+            <marker date="1528503591312" expanded="true" signature="233:1800" ph="{...}" />
+            <marker date="1528503591312" expanded="true" signature="379:831" ph="{...}" />
+            <marker date="1528503591312" expanded="true" signature="564:763" ph="{...}" />
+            <marker date="1528503591312" expanded="true" signature="902:1100" ph="{...}" />
+            <marker date="1528503591312" expanded="true" signature="1110:1794" ph="Coroutine stuff" />
+            <marker date="1528503591312" expanded="true" signature="1190:1305" ph="{...}" />
+            <marker date="1528503591312" expanded="true" signature="1361:1475" ph="{...}" />
+            <marker date="1528503591312" expanded="true" signature="1529:1663" ph="{...}" />
+            <marker date="1528503591312" expanded="true" signature="1704:1774" ph="{...}" />
           </folding>
         </state>
       </provider>

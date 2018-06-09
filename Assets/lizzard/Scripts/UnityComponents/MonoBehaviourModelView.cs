@@ -5,7 +5,7 @@ using UnityWeld.Binding;
 namespace lizzard
 {
     [Binding]
-    public class MonoBehaviourViewModel : MonoBehaviour
+    public class MonoBehaviourModelView : MonoBehaviour
     {
         private string _key;
 

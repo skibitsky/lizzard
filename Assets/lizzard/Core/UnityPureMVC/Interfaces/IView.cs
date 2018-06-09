@@ -109,9 +109,9 @@ namespace UnityPureMVC.Interfaces
 
         void RemoveUiEventListener(string key);
 
-        void RegisterModelView(string key, MonoBehaviourViewModel monoBehaviourViewModel);
+        void RegisterModelView(string key, MonoBehaviourModelView monoBehaviourModelView);
 
-        MonoBehaviourViewModel RetrieveViewModel(string key);
+        MonoBehaviourModelView RetrieveViewModel(string key);
 
         void RemoveModelView(string key);
     }

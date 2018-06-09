@@ -9,6 +9,11 @@ namespace lizzard.UnityComponents
 
         private void Awake()
         {
+            Init();
+        }
+
+        public void Init()
+        {
             if (Instance == null) Instance = this;
             else Destroy(this);
         }

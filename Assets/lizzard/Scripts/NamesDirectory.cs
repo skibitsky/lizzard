@@ -11,10 +11,19 @@ public static class Notifications
     public const string INSTANTIATE = "EngineProxy.INSTANTIATE";
     public const string START_COROUTINE = "EngineProxy.StartCoroutine";
     public const string STOP_COROUTINE = "EngineProxy.StopCoroutine";
+    
+    
+    #if UNITY_IOS || UNITY_ANDROID
+    public const string TOUCH_BEGAN = "EngineProxy.TouchBegan";
+    public const string TOUCH_ENDED = "EngineProxy.TouchEnded";
+    public const string TOUCH_CANCELED = "EngineProxy.ToucCanceled";
+    public const string TOUCH_MOVED = "EngineProxy.ToucMoved";
+    public const string TOUCH_STATIONARY = "EngineProxy.Stationary";
+    #endif
+    
     #endregion
 
 }
-
 
 public static class ProxyNames
 {

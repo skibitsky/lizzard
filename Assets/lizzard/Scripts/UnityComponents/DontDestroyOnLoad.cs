@@ -9,6 +9,7 @@ namespace lizzard.UnityComponents
         
         private void Awake()
         {
+            if (_target == null) _target = gameObject;
             DontDestroyOnLoad(_target);
         }
     }

@@ -34,6 +34,10 @@
         <e p="lizzard" t="Include">
           <e p="Core" t="Include">
             <e p="InputSystem" t="Include">
+              <e p="Demo" t="Include">
+                <e p="Chat.cs" t="Include" />
+                <e p="PlayerController.cs" t="Include" />
+              </e>
               <e p="Scripts" t="Include">
                 <e p="InputAxis.cs" t="Include" />
                 <e p="InputAxisType.cs" t="Include" />
@@ -188,6 +192,9 @@
                 <e p="StartCoroutineCommand.cs" t="Include" />
                 <e p="StopCoroutineCommand.cs" t="Include" />
               </e>
+              <e p="MobileInput" t="Include">
+                <e p="StartupMobileImput.cs" t="Include" />
+              </e>
               <e p="RegisterCommandsCommand.cs" t="Include" />
               <e p="StartupEngineCommand.cs" t="Include" />
               <e p="StartupMediatorsCommand.cs" t="Include" />
@@ -205,7 +212,7 @@
               <e p="CoroutineRunner.cs" t="Include" />
               <e p="DontDestroyOnLoad.cs" t="Include" />
               <e p="GameLauncher.cs" t="Include" />
-              <e p="MonoBehaviourViewModel.cs" t="Include" />
+              <e p="MonoBehaviourModelView.cs" t="Include" />
             </e>
             <e p="ValueObjects" t="Include">
               <e p="LoadedSceneVO.cs" t="Include" />

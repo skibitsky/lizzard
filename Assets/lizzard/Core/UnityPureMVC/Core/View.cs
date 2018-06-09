@@ -54,7 +54,7 @@ namespace UnityPureMVC.Core
             MediatorMap = new Dictionary<string, IMediator>();
             ObserverMap = new Dictionary<string, IList<IObserver>>();
             UiEventsMap = new Dictionary<string, IList<IMediator>>();
-            ModelViewMap = new Dictionary<string, MonoBehaviourViewModel>();
+            ModelViewMap = new Dictionary<string, MonoBehaviourModelView>();
             InitializeView();
         }
 
@@ -252,17 +252,17 @@ namespace UnityPureMVC.Core
                 UiEventsMap.Remove(key);
         }
 
-        public virtual void RegisterModelView(string key, MonoBehaviourViewModel monoBehaviourViewModel)
+        public virtual void RegisterModelView(string key, MonoBehaviourModelView monoBehaviourModelView)
         {
             if (!ModelViewMap.ContainsKey(key))
-                ModelViewMap.Add(key, monoBehaviourViewModel);
+                ModelViewMap.Add(key, monoBehaviourModelView);
             else
                 UnityEngine.Debug.LogErrorFormat("Model view <i>{0}</i> already exists", key);
         }
 
-        public virtual MonoBehaviourViewModel RetrieveViewModel(string key)
+        public virtual MonoBehaviourModelView RetrieveViewModel(string key)
         {
-            MonoBehaviourViewModel result;
+            MonoBehaviourModelView result;
             return ModelViewMap.TryGetValue(key, out result) ? result : null;
         }
 
@@ -286,6 +286,6 @@ namespace UnityPureMVC.Core
         /// </summary>
         protected IDictionary<string, IList<IMediator>> UiEventsMap;
 
-        protected IDictionary<string, MonoBehaviourViewModel> ModelViewMap;
+        protected IDictionary<string, MonoBehaviourModelView> ModelViewMap;
     }
 }

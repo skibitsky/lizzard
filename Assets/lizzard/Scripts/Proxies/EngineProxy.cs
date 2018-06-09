@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using lizzard.UnityComponents;
 using lizzard.ValueObjects;
+using UnityEngine;
 using UnityPureMVC.Patterns;
 using UnityEngine.SceneManagement;
 
@@ -13,12 +14,19 @@ namespace lizzard.Proxies
         public EngineProxy(string proxyName, object data = null) : base(proxyName, data)
         {
             SceneManager.sceneLoaded += OnSceneWasLoaded;
+
+            // If CoroutineRunner doesn't exist, create a new one
+            if (CoroutineRunner.Instance == null)
+            {
+                var go = new GameObject("CoroutineRunner", typeof(CoroutineRunner), typeof(DontDestroyOnLoad));
+                go.GetComponent<CoroutineRunner>().Init();
+            }
+
             _coroutineRunner = CoroutineRunner.Instance;
         }
 
         public void OnSceneWasLoaded(Scene scene, LoadSceneMode mode)
         {
-            UnityEngine.Debug.Log("SCENE LOADED: " + scene.name);
             if (scene.buildIndex == 0) return;
             var sceneVo = new LoadedSceneVO(scene, mode);
             SendNotification(Notifications.SCENE_LOADED, sceneVo, null);
