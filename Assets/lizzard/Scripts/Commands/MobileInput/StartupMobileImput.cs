@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using UnityPureMVC.Interfaces;
 using UnityPureMVC.Patterns;
@@ -8,6 +7,7 @@ namespace lizzard.Commands
 {
     public class StartupMobileImput : SimpleCommand
     {
+        #if UNITY_IOS || UNITY_ANDROID
         public override void Execute(INotification notification)
         {
             base.Execute(notification);
@@ -43,5 +43,6 @@ namespace lizzard.Commands
                 yield return null;
             }
         }
+        #endif
     }
 }
