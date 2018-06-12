@@ -7,7 +7,7 @@ using UnityPureMVC.Patterns;
 namespace lizzard.Examples01
 {
     /// <summary>
-    /// Defaul Facade to use or inherit from in Unity project
+    /// Default Facade to use or inherit from in Unity project
     /// </summary>
     public class UnityFacade : Facade
     { 
@@ -21,13 +21,12 @@ namespace lizzard.Examples01
         protected override void InitializeController()
         {
             base.InitializeController();
-            RegisterCommand(NotificationNames.STARTUP, typeof(StartupMacroCommand));
-            RegisterCommand(NotificationNames.SPAWN_GAMEOBJECT, typeof(SpawnGameObjectCommand));
+            RegisterCommand(Notifications.STARTUP, typeof(StartupMacroCommand));
         }
 
         public virtual void Startup()
         {
-            SendNotification(NotificationNames.STARTUP);
+            SendNotification(Notifications.STARTUP);
         }
 
     }

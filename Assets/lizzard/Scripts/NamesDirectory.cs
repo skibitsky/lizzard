@@ -8,7 +8,7 @@ public static class Notifications
     #region EngineProxy
     public const string LOAD_SCENE = "EngineProxy.LoadScene";
     public const string SCENE_LOADED = "EngineProxy.SceneWasLoaded";
-    public const string INSTANTIATE = "EngineProxy.INSTANTIATE";
+    public const string INSTANTIATE = "EngineProxy.Instantiate";
     public const string START_COROUTINE = "EngineProxy.StartCoroutine";
     public const string STOP_COROUTINE = "EngineProxy.StopCoroutine";
     

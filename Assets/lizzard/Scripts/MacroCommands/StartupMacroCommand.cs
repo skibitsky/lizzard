@@ -19,13 +19,13 @@ namespace lizzard.Commands
             #endif
         }
 
+        // You can load initial scene (menu?) here
         public override void Execute(INotification notification)
         {
             base.Execute(notification);
-
-            // Load initial scene (menu?) here
-            SendNotification(Notifications.LOAD_SCENE,
-                new LoadSceneVO("Menu", UnityEngine.SceneManagement.LoadSceneMode.Single, true), null);
+ 
+//            SendNotification(Notifications.LOAD_SCENE,
+//                new LoadSceneVO("Menu", UnityEngine.SceneManagement.LoadSceneMode.Single, true), null);
         }
     }
 }

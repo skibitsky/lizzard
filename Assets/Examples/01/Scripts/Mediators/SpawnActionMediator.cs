@@ -8,7 +8,7 @@ namespace lizzard.Examples01
     {
         public void Spawn(object body)
         {
-            SendNotification(NotificationNames.SPAWN_GAMEOBJECT,
+            SendNotification(Notifications.INSTANTIATE,
                 new SpawnableGameObject(
                     ((ButtonsProxy) Facade.RetrieveProxy("ButtonsProxy")).GetButton(),
                     GameObject.Find("Actions").transform,
