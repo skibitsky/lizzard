@@ -1,4 +1,5 @@
-﻿using System.Linq;
+using System;
+using System.Linq;
 using UnityEngine;
 using UnityWeld.Binding.Exceptions;
 using UnityWeld.Binding.Internal;
@@ -27,10 +28,10 @@ namespace UnityWeld.Binding
         /// </summary>
         private object FindViewModel(string viewModelName)
         {
-            var trans = transform.root;
+            var trans = transform;
             while (trans != null)
             {
-                var components = trans.GetComponentsInChildren<MonoBehaviour>();
+                var components = trans.GetComponents<MonoBehaviour>();
                 var monoBehaviourViewModel = components
                     .FirstOrDefault(component => component.GetType().ToString() == viewModelName);
                 if (monoBehaviourViewModel != null)
@@ -171,10 +172,6 @@ namespace UnityWeld.Binding
         /// </summary>
         public abstract void Disconnect();
 
-        /// <summary>
-        /// Standard MonoBehaviour awake message, do not call this explicitly.
-        /// Initialises the binding.
-        /// </summary>
         protected void Awake()
         {
             Init();
