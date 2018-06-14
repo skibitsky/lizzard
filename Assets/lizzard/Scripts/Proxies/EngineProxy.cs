@@ -9,12 +9,10 @@ namespace lizzard.Proxies
 {
     public class EngineProxy : Proxy
     {
-        private CoroutineRunner _coroutineRunner;
+        private readonly CoroutineRunner _coroutineRunner;
 
         public EngineProxy(string proxyName, object data = null) : base(proxyName, data)
         {
-            SceneManager.sceneLoaded += OnSceneWasLoaded;
-
             // If CoroutineRunner doesn't exist, create a new one
             if (CoroutineRunner.Instance == null)
             {
@@ -22,13 +20,6 @@ namespace lizzard.Proxies
             }
 
             _coroutineRunner = CoroutineRunner.Instance;
-        }
-
-        public void OnSceneWasLoaded(Scene scene, LoadSceneMode mode)
-        {
-            if (scene.buildIndex == 0) return;
-            var sceneVo = new LoadedSceneVO(scene, mode);
-            SendNotification(Notifications.SCENE_LOADED, sceneVo, null);
         }
 
         #region Coroutine stuff
