@@ -18,8 +18,7 @@ namespace lizzard.Proxies
             // If CoroutineRunner doesn't exist, create a new one
             if (CoroutineRunner.Instance == null)
             {
-                var go = new GameObject("CoroutineRunner", typeof(CoroutineRunner), typeof(DontDestroyOnLoad));
-                go.GetComponent<CoroutineRunner>().Init();
+                new GameObject("CoroutineRunner", typeof(CoroutineRunner), typeof(DontDestroyOnLoad));
             }
 
             _coroutineRunner = CoroutineRunner.Instance;
