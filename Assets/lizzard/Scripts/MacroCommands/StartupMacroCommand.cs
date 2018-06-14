@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using lizzard.Examples01;
+using UnityEngine;
 using UnityPureMVC.Interfaces;
 using UnityPureMVC.Patterns;
 
@@ -9,6 +10,7 @@ namespace lizzard.Commands
         protected override void InitializeMacroCommand()
         {
             base.InitializeMacroCommand();
+            AddSubCommand(() => new StartupLizzardProxiesCommand());
             AddSubCommand(() => new StartupEngineCommand());
             
             #if UNITY_IOS || UNITY_ANDROID

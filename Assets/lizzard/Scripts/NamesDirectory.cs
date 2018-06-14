@@ -29,5 +29,6 @@ public static class Notifications
 public static class ProxyNames
 {
     public const string ENGINE_PROXY = "EngineProxy";
+    public const string LIZZARD_OBJECT_PROXY = "LizzardObjectProxy";
 }
 

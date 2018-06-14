@@ -5,7 +5,7 @@ namespace lizzard.Examples01
 {
     /// <inheritdoc />
     /// <summary>
-    /// Register all preject's proxies
+    /// Register all project's proxies
     /// </summary>
     public class StartupProxiesCommand : SimpleCommand
     {
