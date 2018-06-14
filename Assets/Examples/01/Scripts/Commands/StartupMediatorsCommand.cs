@@ -4,6 +4,10 @@ using UnityPureMVC.Patterns;
 
 namespace lizzard.Examples01
 {
+    /// <inheritdoc />
+    /// <summary>
+    /// Register all preject's mediators
+    /// </summary>
     public class StartupMediatorsCommand : SimpleCommand
     {
         public override void Execute(INotification notification)

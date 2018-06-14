@@ -5,9 +5,13 @@ using lizzard.ValueObjects;
 
 namespace lizzard.Examples01
 {
+    /// <inheritdoc />
+    /// <summary>
+    /// Spawns object when receives "SpawnAction" UI event from any ModelView
+    /// </summary>
     public class SpawnActionMediator : Mediator
     {
-        public void Spawn(object body)
+        private void Spawn(object body)
         {
             SendNotification(Notifications.INSTANTIATE,
                 new InstantiateGameObjectVO(

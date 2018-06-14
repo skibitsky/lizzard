@@ -13,7 +13,7 @@ namespace lizzard
         protected override void InitializeController()
         {
             base.InitializeController();
-            RegisterCommand(Notifications.STARTUP, typeof(StartupMacroCommand));
+            RegisterCommand(Notifications.STARTUP_LIZZARD, typeof(StartupMacroCommand));
         }
 
         /// <summary>
@@ -21,6 +21,10 @@ namespace lizzard
         /// </summary>
         public virtual void Startup()
         {
+            // Start lizzard's stuff (StartupMacroCommand, subscribed above)
+            SendNotification(Notifications.STARTUP_LIZZARD);
+            
+            // Start project's stuff
             SendNotification(Notifications.STARTUP);
         }
     }

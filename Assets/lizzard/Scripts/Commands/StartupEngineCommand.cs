@@ -1,4 +1,6 @@
-﻿using lizzard.ValueObjects;
+﻿using System.Diagnostics;
+using lizzard.Proxies;
+using lizzard.ValueObjects;
 using UnityEngine.SceneManagement;
 using UnityPureMVC.Interfaces;
 using UnityPureMVC.Patterns;
@@ -10,10 +12,15 @@ namespace lizzard.Commands
         public override void Execute(INotification notification)
         {
             base.Execute(notification);
+            
+            // Engine commands
             Facade.RegisterCommand(Notifications.LOAD_SCENE, typeof(LoadSceneCommand));
             Facade.RegisterCommand(Notifications.START_COROUTINE, typeof(StartCoroutineCommand));
             Facade.RegisterCommand(Notifications.STOP_COROUTINE, typeof(StopCoroutineCommand));
             Facade.RegisterCommand(Notifications.INSTANTIATE, typeof(InstantiateGameObjectCommand));
+            
+            //Engine proxy
+            Facade.RegisterProxy(new EngineProxy(ProxyNames.ENGINE_PROXY));
             
             SceneManager.sceneLoaded += OnSceneWasLoaded;
         }

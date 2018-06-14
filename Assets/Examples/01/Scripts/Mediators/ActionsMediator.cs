@@ -13,7 +13,7 @@ namespace lizzard.Examples01
             AddUiEventInterest("DoAction", DoAction);
         }
 
-        public void DoAction(object body)
+        private static void DoAction(object body)
         {
             Debug.Log("Action done!");
         }

@@ -7,14 +7,17 @@ using UnityPureMVC.Patterns;
 
 namespace lizzard.Examples01
 {
-    public class StartupMacroCommand : MacroCommand
+    /// <inheritdoc />
+    /// <summary>
+    /// Project's initialization MacroCommand
+    /// </summary>
+    public class MyStartupMacroCommand : MacroCommand
     {
         protected override void InitializeMacroCommand()
         {
             base.InitializeMacroCommand();
             AddSubCommand(() => new StartupMediatorsCommand());
             AddSubCommand(() => new StartupProxiesCommand());
-            AddSubCommand(() => new StartupEngineCommand());
         }
     }
 }

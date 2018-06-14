@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityPureMVC;
 
 namespace lizzard.Examples01
 {
@@ -7,7 +6,11 @@ namespace lizzard.Examples01
     {
         private void Awake()
         {
-            UnityFacade.GetInstance.Startup();
+            // Here we can add our own Startup MacroCommand to init project's Mediators, Proxies, etc....
+            Facade.GetInstance.RegisterCommand(Notifications.STARTUP, typeof(MyStartupMacroCommand));
+            
+            // Launch lizzard!
+            Facade.GetInstance.Startup();
         }
     }
 

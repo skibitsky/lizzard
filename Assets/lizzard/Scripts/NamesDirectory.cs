@@ -3,6 +3,7 @@
 
 public static class Notifications
 {
+    public const string STARTUP_LIZZARD = "StartupLizzard";
     public const string STARTUP = "Startup";
 
     #region EngineProxy
