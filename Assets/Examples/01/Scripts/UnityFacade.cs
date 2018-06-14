@@ -24,7 +24,7 @@ namespace lizzard.Examples01
             RegisterCommand(Notifications.STARTUP, typeof(StartupMacroCommand));
         }
 
-        public virtual void Startup()
+        public override void Startup()
         {
             SendNotification(Notifications.STARTUP);
         }

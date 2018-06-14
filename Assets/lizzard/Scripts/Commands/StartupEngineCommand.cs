@@ -11,7 +11,7 @@ namespace lizzard.Commands
             Facade.RegisterCommand(Notifications.LOAD_SCENE, typeof(LoadSceneCommand));
             Facade.RegisterCommand(Notifications.START_COROUTINE, typeof(StartCoroutineCommand));
             Facade.RegisterCommand(Notifications.STOP_COROUTINE, typeof(StopCoroutineCommand));
-            Facade.RegisterCommand(Notifications.INSTANTIATE, typeof(SpawnGameObjectCommand));
+            Facade.RegisterCommand(Notifications.INSTANTIATE, typeof(InstantiateGameObjectCommand));
         }
     }
 }

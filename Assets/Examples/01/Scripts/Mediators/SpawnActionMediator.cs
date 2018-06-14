@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityPureMVC.Patterns;
 using lizzard.Commands;
+using lizzard.ValueObjects;
 
 namespace lizzard.Examples01
 {
@@ -9,7 +10,7 @@ namespace lizzard.Examples01
         public void Spawn(object body)
         {
             SendNotification(Notifications.INSTANTIATE,
-                new SpawnableGameObject(
+                new InstantiateGameObjectVO(
                     ((ButtonsProxy) Facade.RetrieveProxy("ButtonsProxy")).GetButton(),
                     GameObject.Find("Actions").transform,
                     Vector3.zero,
