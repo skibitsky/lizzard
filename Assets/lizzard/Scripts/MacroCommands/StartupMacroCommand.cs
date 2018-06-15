@@ -1,4 +1,5 @@
 ﻿using lizzard.Examples01;
+using lizzard.Scripts.Commands;
 using UnityEngine;
 using UnityPureMVC.Interfaces;
 using UnityPureMVC.Patterns;
@@ -12,6 +13,7 @@ namespace lizzard.Commands
             base.InitializeMacroCommand();
             AddSubCommand(() => new StartupLizzardProxiesCommand());
             AddSubCommand(() => new StartupEngineCommand());
+            AddSubCommand(() => new RegisterCommandsCommand());
             
             #if UNITY_IOS || UNITY_ANDROID
             AddSubCommand(() => new StartupMobileImput());

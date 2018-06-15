@@ -7,7 +7,7 @@ namespace lizzard.Examples01
     /// Proxy to work with buttons prefabs
     /// Resources folder is used as Model
     /// Buttons may be accessed very often therefore it is cashed into private var
-    /// The var is private with a getter to unsure that nobody cannot accidentally substitute cashed data
+    /// The var is private with a getter to insure that nobody cannot accidentally substitute cashed data
     /// </summary>
     public class ButtonsProxy : Proxy
     {

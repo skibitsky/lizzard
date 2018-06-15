@@ -8,7 +8,7 @@ namespace lizzard.Proxies
 {
     public class LizzardObjectsProxy : Proxy
     {
-        private int _lastId = 0;
+        private int _id = 0;
 
         // Collection of all ILizzardObjects
         private readonly Dictionary<int, ILizzardObject> _objects = new Dictionary<int, ILizzardObject>();
@@ -22,10 +22,10 @@ namespace lizzard.Proxies
         /// Add ILizzardObject to collection
         /// </summary>
         /// <param name="obj">ILIzzardObject which will be added</param>
-        public void AddObject(ILizzardObject obj)
+        public virtual void AddObject(ILizzardObject obj)
         {
             // Save ILizzardObject unique ID
-            obj.Id = _lastId++;
+            obj.Id = _id++;
             // Add it to colelction
             _objects.Add(obj.Id, obj);
         }
@@ -35,7 +35,7 @@ namespace lizzard.Proxies
         /// Register Unity GameObject as an ILizzardObject
         /// </summary>
         /// <param name="obj">GameObject to be regirestered</param>
-        public void AddObject(GameObject obj)
+        public virtual void AddObject(GameObject obj)
         {
             // If it doesn't have ILizzardObject component, create one
             if (obj.GetComponent<ILizzardObject>() == null)
@@ -45,7 +45,7 @@ namespace lizzard.Proxies
             // Save GameObject
             ilo.GameObject = obj;
             // Save ILizzardObject unique ID
-            ilo.Id = _lastId++;
+            ilo.Id = _id++;
             // Add it to collection
             _objects.Add(ilo.Id, ilo);
         }
@@ -54,7 +54,7 @@ namespace lizzard.Proxies
         /// Gert ILizzardObject
         /// </summary>
         /// <param name="id">ILizzardObject id</param>
-        public ILizzardObject GetObject(int id)
+        public virtual ILizzardObject GetObject(int id)
         {
             if (_objects.ContainsKey(id))
                 return _objects[id];
@@ -69,7 +69,7 @@ namespace lizzard.Proxies
         /// <param name="id">Id of LizzardObject</param>
         /// <param name="destroy">Destroy GameObject?</param>
         /// <returns>Successfully removed?</returns>
-        public bool RemoveObject(int id, bool destroy)
+        public virtual bool RemoveObject(int id, bool destroy)
         {
             if (!_objects.ContainsKey(id)) return false;
 
@@ -87,7 +87,7 @@ namespace lizzard.Proxies
         /// <param name="obj">ILizzardObject</param>
         /// <param name="destroy">Destroy GameObject?</param>
         /// <returns>Successfully removed?</returns>
-        public bool RemoveObject(ILizzardObject obj, bool destroy)
+        public virtual bool RemoveObject(ILizzardObject obj, bool destroy)
         {
             if (!_objects.ContainsKey(obj.Id)) return false;
 
@@ -102,13 +102,23 @@ namespace lizzard.Proxies
         /// <summary>
         /// Deletes all LizzardObjects from the list if theri GameObject is null
         /// </summary>
-        public void DeleteAllNullObjects()
+        public virtual void DeleteAllNullObjects()
         {
             foreach (var o in _objects)
             {
                 if (o.Value.GameObject == null)
                     RemoveObject(o.Key, false);
             }
+        }
+
+        public ILizzardObject GetLastObject()
+        {
+            return _objects[_id-1];
+        }
+
+        public int GetLastId()
+        {
+            return _id-1;
         }
     }
 }

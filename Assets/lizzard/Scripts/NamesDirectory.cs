@@ -24,6 +24,12 @@ public static class Notifications
     
     #endregion
 
+    #region Debug
+
+    public const string DEBUG_LOG = "Debug.Log";
+
+    #endregion
+
 }
 
 public static class ProxyNames
