@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using lizzard.Interfaces;
 using lizzard.UnityComponents;
 using UnityEngine;
@@ -104,10 +105,14 @@ namespace lizzard.Proxies
         /// </summary>
         public virtual void DeleteAllNullObjects()
         {
-            foreach (var o in _objects)
+            var dictionary = _objects
+			    .Where(entry => entry.Value?.GameObject?.Equals(null) ?? true)
+			    .ToDictionary(entry => entry.Key,
+		        entry => entry.Value);
+
+            foreach (var entry in dictionary)
             {
-                if (o.Value.GameObject == null)
-                    RemoveObject(o.Key, false);
+			    RemoveObject(entry.Key, false);
             }
         }
 
