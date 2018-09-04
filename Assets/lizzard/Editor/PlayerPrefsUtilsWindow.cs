@@ -72,7 +72,6 @@ namespace lizzard.EditorUtils
 			switch (_readTypeChoiceIndex)
 			{
 				case 0:
-					Debug.Log(PlayerPrefs.GetInt(_readKey));
 					_readResult = PlayerPrefs.GetInt(_readKey).ToString();
 					break;
 				case 1:
