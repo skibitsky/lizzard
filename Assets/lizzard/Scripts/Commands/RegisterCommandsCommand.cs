@@ -15,7 +15,7 @@ namespace lizzard.Scripts.Commands
             #region MobileInput
             
             #if UNITY_IOS || UNITY_ANDROID
-            // You can reregister any of these commands with your own inherted from them
+            // You can register any of these commands with your own inherted from them
             Facade.RegisterCommand(Notifications.TOUCH_BEGAN, typeof(TouchBeganMacroCommand));
             Facade.RegisterCommand(Notifications.TOUCH_ENDED, typeof(TouchEndedMacroCommand));
             Facade.RegisterCommand(Notifications.TOUCH_CANCELED, typeof(TouchCanceledMacroCommand));
